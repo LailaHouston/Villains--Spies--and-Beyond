@@ -1,5 +1,15 @@
-
-.picture-home {
-    background-image: url(images/spypic.jpg);
+body{
+    font-family: Abril,Fatface
+}
+.navbar-nav{
+    font-size: 24;
+    font-
+}
+img {
     background-size: 0%;
    }
+.signinup {
+    background-image: url(images/blueyellowpic1.jpg);
+    width: 100%;
+    height: 100%;
+}
