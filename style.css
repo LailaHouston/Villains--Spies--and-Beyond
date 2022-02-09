@@ -1,9 +1,17 @@
 body{
-    font-family: Abril,Fatface
+    font-family: Abril, Fatface;
 }
 .navbar-nav{
-    font-size: 24;
-    font-
+    font-size: 24px;
+    text-align:center;
+    color: #FFFF;
+    Float: left;
+}
+.navbar-nav:hover{
+    color: #C4C4C4;
+}
+.navbar-n:active{
+    color:#C4C4C4;
 }
 img {
     background-size: 0%;
@@ -12,4 +20,15 @@ img {
     background-image: url(images/blueyellowpic1.jpg);
     width: 100%;
     height: 100%;
+}
+.smabout {
+    background-color: black;
+    color: white;
+}
+.featuredproducts{
+    background-color: white;
+}
+footer{
+    background-color: black;
+    color: white;
 }
