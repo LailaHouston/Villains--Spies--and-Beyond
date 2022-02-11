@@ -20,7 +20,8 @@
     <section class="header">
         <nav>
           <a href="index.html"><img src="images/logo.png" ></a>
-          <div class="nav-links">
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">Home</a></li>
@@ -29,6 +30,7 @@
               <li><a href="#">Home</a></li>
             </ul>
           </div>
+          <i class="fa fa-bars"  onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
           <h1>Villains, Spies, and Beyond</h1>
@@ -37,6 +39,44 @@
         </div>
 
     </section>
+    <!--Course-->
+    
+
+
+
+
+        <!--Javascript for toggle menu-->
+    <script>
+
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+    </script>
+<!--https://www.youtube.com/watch?v=lBfshkPlMW8  11:52
+  https://www.youtube.com/watch?v=yQimoqo0-7g -->
+    <!--Sign up-->
+    <section id="banner">
+      <img src="images/blueyellowpic1.jpg" class="blueyellowpic1">
+        <div class="banner-text">
+          <h1>services</h1>
+          <p>blah blah blah</p>
+          <div class="banner-btn">
+            <a href="#">Sign Up</a>
+            <a href="#">Sign Up</a>
+          </div> 
+        </div>
+       
+    </section>
+
+
+
+
 
       <!--https://www.youtube.com/watch?v=oYRda7UtuhA  20:00 --> 
 
@@ -200,71 +240,44 @@
 
 
             <!--footer-->
-          
-            <footer class="end">
-              <div class="container-fluid padding">
-                <div class="row text-center">
-                  
-                  
-
-                  <div class="col-md-4">
-                    <hr class="light">
-                    <h5>More Info</h5>
-                    <table style="width:100%">
-                      <tr class="first">
-                        <th>Products</th>
-                        <th>Services</th>
-                        <th>About</th>
-                        <th>Follow Us</th>
-                      </tr>
-                      <tr>
-                        <td>Gadgets</td>
-                        <td>Therapy</td>
-                        <td>Orgin Story</td>
-                        <td><i class="fab fa-instagram"></i></td>
-                      </tr>
-                      <tr class="second">
-                        <td>Disguises</td>
-                        <td></td>
-                        <td></td>
-                        <td><i class="fab fa-snapchat"></i></td>
-
-                      </tr>
-                      <tr>
-                        <td>Handwear</td>
-                        <td></td>
-                        <td></td>
-                        <td><i class="fab fa-youtube"></i></td>
-
-                      </tr>
-                      <tr class="second">
-                        <td>Headwear</td>
-                        <td></td>
-                        <td></td>
-                        <td><i class="fab fa-tiktok"></i></td>
-
-                      </tr>
-                      <tr>
-                        <td>Minions</td>
-                        <td></td>
-                        <td></td>
-                        <td><i class="fa-brands fa-snapchat"></i></td>
-
-                      </tr>
-                      
-                     
-                    </table>
-
-
-                  </div>
-                </div>
-                <div class="col-12">
-                  <hr class="light-100">
-                  <h5 align="center"> &copy; aeromind&body.com</h5>
-                </div>
-              </div>
+       <div class="footer-container">
+         <div class="footer">
+           <div class="footer-heading footer-1">
+             <h2> Products</h2>
+             <a href="#">Gadgets</a>
+             <a href="#">Disguises</a>
+             <a href="#">Handwear</a>
+             <a href="#">Headwear</a>
+             <a href="#">Minions</a>
+           </div>
+         </div>
+       </div>
+       <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-2">
+            <h2> Services</h2>
+            <a href="#">Therapy</a>
           </div>
-          </footer>
+        </div>
+      </div>
+      <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-3">
+            <h2> Social Media </h2>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Snap Chat</a>
+            <a href="#">TicTok</a>
+            <a href="#">YouTube</a>
+          </div>
+          <div class="footer-email-form">
+            <h2>Stay Connected With Us</h2>
+              <input type="email" Placerholder="Enter your email address" id="Footer-email">
+              <input type="text" id="Footer-email-btn">
+              <input type="submit" value="Sign Up" id="footer-email-btn">
+          </div>
+        </div>
+      </div>
 
 
 
