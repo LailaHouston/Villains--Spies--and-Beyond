@@ -322,8 +322,16 @@ h4{
     }
     .nav-links ul{
         padding: 30px;
-@media screen and (max-width: 1150 px)
+@media screen and (max-width: 1150 px) {
+    .footer{
+        height: 50vh;
     }
+    .footer-email-form{
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: )aaaaaaa3    }
 }
 
 
