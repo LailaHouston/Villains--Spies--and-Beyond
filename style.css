@@ -342,7 +342,7 @@ h4{
             text-align: center;
             }
         .col-3, .col-6{
-            flex-basis: 100%
+            flex-basis: 50%
         }
     
 }
@@ -377,6 +377,14 @@ h4{
         flex-basis: 100%
     }
 }
-
-
-
+@media only screen and (max-width: 800px){
+    .row{
+        text-align: center;
+        }
+    .col-3{
+        flex-basis: 25%
+    }
+    .col-6, .col-12{
+        flex-basis: 100%;
+    }
+}
