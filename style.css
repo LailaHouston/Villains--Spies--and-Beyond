@@ -278,6 +278,23 @@ h4{
     padding: 60px 0;
 }
 
+.col-12{
+    text-align: center;
+}
+.col-12 .hero-btn{
+    color: black;
+    border: 1px solid black;
+    height: 60px;
+    width: 300px;
+    font-size: 25px;
+
+}
+.col-12 .hero-btn:hover{
+    background: white;
+}
+.col-12 h1{
+    font-size: 50px;
+}
 
 
 
@@ -290,10 +307,7 @@ h4{
 
 
 
-
-
-    .footer-email-{}
-
+    
 
 @media(max-width: 700px){
     .text-box h1{
@@ -322,7 +336,17 @@ h4{
     }
     .nav-links ul{
         padding: 30px;
-@media screen and (max-width: 1150 px) {
+    }
+    
+        .row{
+            text-align: center;
+            }
+        .col-3, .col-6{
+            flex-basis: 100%
+        }
+    
+}
+@media screen and (max-width: 1150px) {
     .footer{
         height: 50vh;
     }
@@ -342,19 +366,17 @@ h4{
         display: none;
     }
     .footer-email-form{
-        margin-top: 4rem;
+                margin-top: 4rem;
     }
 }
-aaaaaaa3    }
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+        }
+    .col-3, .col-6, .col-12{
+        flex-basis: 100%
+    }
 }
-
-
-
-
-
-
-
-
 
 
 
