@@ -12,32 +12,372 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>VSAB Products</title>
   </head>
   <body>
+<!-- POP UP for Coupon-->
+<div class="popup">
+    <div class="contentBox">
+        <div class="imgBx">
+          <img src="images/minions.jfif">
+        </div>
+        <div class="content">
+          <div>
+          <h3>Special Offer</h3>
+          <h2>80<sup>%</sup><span> OFF</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing
+             elit.</p>
+             <a href="#">Get The Deal</a>
+             </div>
+        </div>
+    </div>
+</div>
+
 
 <!---Test-->
-    <section class="header">
+    <section class="otherpagesnav">
         <nav>
-          <a href="index.html"><img src="images/logo.png" ></a>
-          <div class="nav-links">
+          <a href="index.html"><img src="images/logo2.png" ></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Home</a></li>
+              <div class="navtextpages">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="cart.html">Cart</a></li>
+              </div>
             </ul>
+          </div>
+          <div class="navbarspages">
+          <i class="fa fa-bars"  onclick="showMenu()"></i>
           </div>
         </nav>
 
+    </section>
+    <!--End of Test Nav-->
+    
+       <!--Javascript for toggle menu-->
+       <script>
+
+        var navLinks = document.getElementById("navLinks");
+  
+        function showMenu(){
+          navLinks.style.right = "0";
+        }
+        function hideMenu(){
+          navLinks.style.right = "-200px";
+        }
+  
+      </script>
+    <!-- End of Javascript for toggle menu-->
+
+
+  <!--Featured category 
+
+  <div class="categories">
+      <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+            <img src="images/headwear.jfif">
+        </div>
+        <div class="col-3">
+          <img src="images/shrinkray.jpg">
+        </div>
+        <div class="col-3">
+          <img src="images/spybelt.jpg">
+        </div>
+        </div>
+      </div>
+    </div>
+  -->
+
+    <!-- css for featured cateagory
+      .categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+    -->
+
+
+<!-- signup-->
+
+<div class="offer">
+    <div class="small-container">
+      <div class="row">
+          <div class="col-12">
+              <h1>Products</h1>
+          </div>
+      </div>
+    </div>
+</div>
 
 
 
 
 
 
-    <h1>Products</h1>
+
+
+<!--Featured Products-->
+    <div class="small-container">
+      <h2 class="title">Showing All</h2>
+      <div class="row">
+        <div class="col-3">
+          <img src="images/headwear.jfif">
+          <h4>Headwear</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$150.00</p>
+        </div>
+          <div class="col-3">
+            <img src="images/headwear.jfif">
+            <h4>Headwear</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$150.00</p>
+          </div>
+            <div class="col-3">
+              <img src="images/headwear.jfif">
+              <h4>Headwear</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>$150.00</p>
+            </div>
+            <div class="col-3">
+              <img src="images/headwear.jfif">
+              <h4>Headwear</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>$150.00</p>
+            </div>
+            <div class="col-3">
+              <img src="images/headwear.jfif">
+              <h4>Headwear</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>$150.00</p>
+            </div>
+            <div class="col-3">
+              <img src="images/headwear.jfif">
+              <h4>Headwear</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>$150.00</p>
+            </div>
+            <div class="col-3">
+              <img src="images/headwear.jfif">
+              <h4>Headwear</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>$150.00</p>
+            </div>
+            <div class="col-3">
+              <img src="images/headwear.jfif">
+              <h4>Headwear</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>$150.00</p>
+            </div>
+            <div class="col-3">
+              <img src="images/headwear.jfif">
+              <h4>Headwear</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>$150.00</p>
+            </div>
+            <div class="col-3">
+              <img src="images/headwear.jfif">
+              <h4>Headwear</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>$150.00</p>
+            </div>
+            <div class="col-3">
+              <img src="images/headwear.jfif">
+              <h4>Headwear</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>$150.00</p>
+            </div>
+            <div class="col-3">
+              <img src="images/headwear.jfif">
+              <h4>Headwear</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>$150.00</p>
+            </div>
+    </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+<!--smAbout TEST-->
+<div class="offer">
+  <div class="small-container">
+    <div class="row">
+        <div class="col-6">
+          <img src ="images/minions.jfif" class="offer-img">
+        </div>
+        <div class="col-6">
+            <p>a little about us... </p>
+            <h1>We're the Minions!</h1>
+            <small>We started off as a small company
+               with only one customer. Only getting
+                paid 1 dollar per hour, wasn’t enough 
+                for us. Now, we sell and provide more 
+                products and services nationwide.</small>
+                <br>
+                <a href="about.html" class="hero-btn">Read More</a>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+       
+<!--https://www.youtube.com/watch?v=lBfshkPlMW8  11:52
+  https://www.youtube.com/watch?v=yQimoqo0-7g -->
+    <!--Sign up-->
+
+    
+
+
+
+
+
+      <!--https://www.youtube.com/watch?v=oYRda7UtuhA  20:00 --> 
+
+
+
+
+
+
+
+
+
+    
+
+     
+
+        
+
+
+
+            <!--footer-->
+       <div class="footer-container">
+         <div class="footer">
+           <div class="footer-heading footer-1">
+             <h2> Products</h2>
+             <a href="#">Gadgets</a>
+             <a href="#">Disguises</a>
+             <a href="#">Handwear</a>
+             <a href="#">Headwear</a>
+             <a href="#">Minions</a>
+       </div>
+          <div class="footer-heading footer-2">
+            <h2> Services</h2>
+            <a href="#">Therapy</a>
+      </div>
+          <div class="footer-heading footer-3">
+            <h2> Social Media </h2>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Snap Chat</a>
+            <a href="#">TicTok</a>
+            <a href="#">YouTube</a>
+          </div>
+          <div class="footer-email-form">
+            <h2>Stay Connected With Us</h2>
+              <input type="email" Placerholder="Enter your email address" id="Footer-email">
+              <input type="text" id="Footer-email-btn">
+              <input type="submit" value="Sign Up" id="footer-email-btn">
+          </div>
+        </div>
+      </div>
+     <!---https://www.youtube.com/watch?v=5WoQm7tR6EA----> 
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
