@@ -65,6 +65,11 @@ body{
 }
 .contentBox .content h2 span{
     color: #333;
+    font-size: 0.75em;
+    text-transform: uppercase;
+}
+.contentBox .content p{
+    font-weight: 300;
 }
 
 /*--- ------End of PopUp------- ---*/
