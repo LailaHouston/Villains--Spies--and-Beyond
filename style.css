@@ -13,12 +13,13 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: none;
 }
 .contentBox{
     position: relative;
     width: 600px;
     height: 400px;
-    background: #fff;
+    background: rgb(248, 239, 104);
     border-radius: 20px;
     display: flex;
     box-shadow: 0 5p 15px rgba(0,0,0,0.1);
@@ -71,6 +72,31 @@ body{
 .contentBox .content p{
     font-weight: 300;
 }
+.contentBox .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff4d54;
+    color: #fff;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #f3f3f3 url(close.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+
 
 /*--- ------End of PopUp------- ---*/
 
@@ -489,5 +515,33 @@ i {
     }
     .col-6, .col-12{
         flex-basis: 100%;
+    }
+}
+@media (max-width : 767px){
+    .contentBox{
+        width: 300px;
+        height: auto;
+        flex-direction: column;
+    }
+    .contentBox .imgBx{
+        height: 200px;
+        transform: translateY(-50px)
+    }
+    .contentBox .imgBx::before{
+        background: #fff;
+    }
+    .contentBox .content{
+        height: auto;
+        text-align: center;
+        padding: 20px;
+        padding-top: 0;
+    }
+    .close{
+        top: -50px;
+        right: -10px;
+        background: #fff url(close.png);
+        background-repeat: no-repeat;
+        background-size: 10px;
+        background-positon: center;
     }
 }
