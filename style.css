@@ -92,12 +92,14 @@ nav img{
     color: #fff;
     border: 1px solid #fff;
     padding: 8px 30px;
-    font-size: 13px;
+    font-size: 25px;
     background: transparent;
     position: relative;
     cursor: pointer;
     margin: 30px 0;
     border-radius: 30px;
+    width: 250px;
+    height: 55px;
 }
 .hero-btn:hover{
     border: 1px solid #DFC772;
@@ -295,7 +297,21 @@ h4{
 .col-12 h1{
     font-size: 50px;
 }
+.col-6 .hero-btn{
+    color: black;
+    border: 1px solid black;
+    height: 60px;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
 
+}
+.col-6 .hero-btn:hover{
+    background: white;
+}
+i {
+    font-weight: 900;
+}
 
 
 
@@ -344,7 +360,9 @@ h4{
         .col-3, .col-6{
             flex-basis: 50%
         }
-    
+        .header h1{
+            font-size: 50px;
+        }
 }
 @media screen and (max-width: 1150px) {
     .footer{
@@ -368,13 +386,20 @@ h4{
     .footer-email-form{
                 margin-top: 4rem;
     }
+    .header h1{
+        font-size: 50px;
+    }
 }
 @media only screen and (max-width: 600px){
     .row{
         text-align: center;
+        
         }
     .col-3, .col-6, .col-12{
         flex-basis: 100%
+    }
+    .header h1{
+        font-size: 50px;
     }
 }
 @media only screen and (max-width: 800px){
