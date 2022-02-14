@@ -102,8 +102,7 @@ body{
 
 
 /*--- ------End of PopUp------- ---*/
-
-/*--- PAGINATION CSS ---*/
+/*--- PAGINATION CSS ---
 .pagination ul{
     display: flex;
     background: #fff;
@@ -111,16 +110,20 @@ body{
     border-radius: 50px;
 }
 .pagination ul li{
+    color: #20b2aa;
     list-style: none;
     line-height: 45px;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 .pagination ul li.numb{
+    border-radius: 50%;
     height: 45px;
     width: 45px;
+    margin: 0 3px;
 }
 .pagination ul li.dots{
     font-size: 22px;
@@ -136,12 +139,17 @@ body{
 .pagination ul li.next{
     border-radius: 5px 25px 25px 5px;
 }
+.pagination ul li.active,
+.pagination ul li.numb:hover,
+.pagination ul li.btn:hover{
+    background: #20b2aa;
+}
 
 
 
 
+end of PAGINATION CSS ---*/
 
-/*--- end of PAGINATION CSS ---*/
 .signinup {
     background-image: url(images/blueyellowpic1.jpg);
     width: 100%;
@@ -281,79 +289,6 @@ nav img{
 nav .fa{
     display: none;
 }
-.footer-containter{
-    background-color: black;
-    padding: 4rem 0 4rem 0;
-}
-
-.footer {
-    width: 80%;
-    height: 40vh;
-    background-color: black;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}
-
-.footer-header{
-    display: flex;
-    box-flex: column;
-    margin-right: 4rem;
-}
-
-.footer-heading h2 {
-    margin-bottom: 2rem;
-}
-
-.footer-headering a {
-    color: #fff;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-}
-
-.footer-heading a:hover {
-    color: red;
-    transition: 0.3s ease out;
-}
-
-.footer-email-form h2{
-    margin-bottom: 2rem;
-}
-
-#footer-email{
-    width: 25px;
-    height: 40px;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    padding-left: 0.5rem;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-#footer-email::placeholder{
-    color: #b1b1b1;
-}
-
-#footer-email-btn{
-    width: 100Px;
-    height: 40px;
-    border-radius: 4px;
-    background-color: #f9423D;
-    outline: none;
-    border: none;
-    color:#fff;
-    font-size: 1rem;
-}
-
-#footer-email-btn:hover{
-    cursor: pointer;
-    background-color: #337;
-    transition: all 0.4 ease-out;
-}
-
 
 .banner{
 background-image: url(images/blueyellowpic1.jpg);
