@@ -394,7 +394,13 @@ i {
     font-weight: 900;
 }
 
-
+/*--- signup page----*/
+.signuppage .supfakenav h1{
+text-align: center;
+background-color: black;
+color: white;
+padding: 100px;
+}
 
 
 
