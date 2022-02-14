@@ -6,6 +6,9 @@
 }
 body{
     font-family: Abril, Fatface;
+    
+    
+    
 }
 /*--- -------PopUp--------- ---*/
 .popup{
@@ -100,6 +103,45 @@ body{
 
 /*--- ------End of PopUp------- ---*/
 
+/*--- PAGINATION CSS ---*/
+.pagination ul{
+    display: flex;
+    background: #fff;
+    padding: 8px;
+    border-radius: 50px;
+}
+.pagination ul li{
+    list-style: none;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.pagination ul li.numb{
+    height: 45px;
+    width: 45px;
+}
+.pagination ul li.dots{
+    font-size: 22px;
+    cursor: default;
+}
+.pagination ul li.btn{
+    background: #20b2aa;
+    padding: 0 20px;
+}
+.pagination ul li.prev{
+    border-radius: 25px 5px 5px 25px;
+}
+.pagination ul li.next{
+    border-radius: 5px 25px 25px 5px;
+}
+
+
+
+
+
+/*--- end of PAGINATION CSS ---*/
 .signinup {
     background-image: url(images/blueyellowpic1.jpg);
     width: 100%;
@@ -239,7 +281,6 @@ nav img{
 nav .fa{
     display: none;
 }
-
 .footer-containter{
     background-color: black;
     padding: 4rem 0 4rem 0;
