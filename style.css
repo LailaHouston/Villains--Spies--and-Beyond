@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding:0;
+    box-sizing: border-box;
     font-family: Abril Fatface;
    
 }
@@ -389,6 +390,11 @@ i {
 }
 
 /*--- signup page----*/
+
+.signuppg{
+    min-height: 100vh;
+    width: 100%;
+}
 .signuppage .supfakenav h1{
 text-align: center;
 background-color: black;
@@ -400,18 +406,27 @@ legend {
     text-align: center;
 }
 .legendtitle{
-    font-size: 50px;
+    font-size: 30px;
+}
+legend br {
+    height: .02px;
 }
 legend .existingaccountbtn{
-    font-size: 25px;
+    font-size: 15px;
 }
-form fieldset .mb-3 .inputboxforsignup input{
+form fieldset .mb-3 
+.inputboxforsignup input{
     width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
 .signupform {
     padding-top: 5%;
+    background-image: linear-gradient(#5684fa,#f7e193);
+}
+.form-label{
+  text-align: end;
+    
 }
 
 
@@ -420,7 +435,19 @@ form fieldset .mb-3 .inputboxforsignup input{
 
 .footer-container{
     background-color: #212329;
+    padding-bottom: 4rem;
 }
+
+.footer {
+    width: 80%;
+    height: 40vh;
+    background-color: #212329;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 
 
