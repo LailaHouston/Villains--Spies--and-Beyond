@@ -396,9 +396,31 @@ color: white;
 padding: 10px;
 font-size: 30px;
 }
+legend {
+    text-align: center;
+}
+.legendtitle{
+    font-size: 50px;
+}
+legend .existingaccountbtn{
+    font-size: 25px;
+}
+form fieldset .mb-3 .inputboxforsignup input{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signupform {
+    padding-top: 5%;
+}
 
 
 
+/*--- end of signup page----*/
+
+.footer-container{
+    background-color: #212329;
+}
 
 
 
