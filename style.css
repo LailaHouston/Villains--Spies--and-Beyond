@@ -416,19 +416,22 @@ legend .existingaccountbtn{
 }
 form fieldset .mb-3 
 .inputboxforsignup input{
-    width: 400px;
+    width: 550px;
     margin-left: auto;
     margin-right: auto;
 }
 .signupform {
     padding-top: 5%;
+    padding-bottom: 14%;
     background-image: linear-gradient(#5684fa,#f7e193);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 .form-label{
   text-align: end;
     
 }
-
 
 
 /*--- end of signup page----*/
@@ -443,9 +446,15 @@ form fieldset .mb-3
     height: 40vh;
     background-color: #212329;
     color: #fff;
+    display: center\;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
     display: flex;
-    justify-content: center;
-    
+    flex-direction: column;
+    margin-right: 4rem;
 }
 
 
