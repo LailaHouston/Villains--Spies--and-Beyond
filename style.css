@@ -395,7 +395,8 @@ i {
     min-height: 100vh;
     width: 100%;
 }
-.signuppage .supfakenav h1{
+
+.signuppage .supfakenav a h1{
 text-align: center;
 background-color: black;
 color: white;

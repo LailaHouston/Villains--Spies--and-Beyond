@@ -20,7 +20,7 @@
     <div class="signuppg">
     <div class="signuppage">
         <div class="supfakenav">
-    <h1>Villains, Spies, and<br> Beyond</h1>
+    <a href="index.php"><h1>Villains, Spies, and<br> Beyond</h1></a>
     </div>
     </div>
     
