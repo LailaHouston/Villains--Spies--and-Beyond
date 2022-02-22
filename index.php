@@ -24,11 +24,11 @@
           <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="products.html">Products</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="cart.html">Cart</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="products.php">Products</a></li>
+              <li><a href="services.php">Services</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="cart.php">Cart</a></li>
             </ul>
           </div>
           <i class="fa fa-bars"  onclick="showMenu()"></i>
@@ -36,7 +36,7 @@
         <div class="text-box">
           <h1>Villains, Spies, and Beyond</h1>
           <p>A Safe Place for You and Your Mischievousness</p>
-          <a href="products.html" class="hero-btn">View Products</a>
+          <a href="products.php" class="hero-btn">View Products</a>
         </div>
 
     </section>
@@ -108,7 +108,7 @@
       <div class="row">
           <div class="col-12">
               <h1><i>Sign Up </i>  or <i> Log In</i>  to Get Unlimited Offers on <br>all Our Products and Services!</h1>
-                  <a href="signup.html" class="hero-btn">Sign Up or Log In</a>
+                  <a href="signup.php" class="hero-btn">Sign Up or Log In</a>
           </div>
       </div>
     </div>
@@ -201,7 +201,7 @@
                 for us. Now, we sell and provide more 
                 products and services nationwide.</small>
                 <br>
-                <a href="about.html" class="hero-btn">Read More</a>
+                <a href="about.php" class="hero-btn">Read More</a>
         </div>
     </div>
   </div>

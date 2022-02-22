@@ -29,7 +29,7 @@
     <form>
         <fieldset active>
           <legend><div class="legendtitle">Log In</div><br> 
-            <div class="existingaccountbtn">don't have an account? <a href="signup.html">Create an Account</a></div></legend>
+            <div class="existingaccountbtn">don't have an account? <a href="signup.php">Create an Account</a></div></legend>
           <div class="mb-3">
               <div class="inputboxforsignup">
             <label for="activeTextInput" class="form-label">Email:</label>
