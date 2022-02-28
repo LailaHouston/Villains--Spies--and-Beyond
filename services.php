@@ -57,177 +57,83 @@
     <!-- End of Javascript for toggle menu-->
 
 
-
-
-
-
-
-
-
-
-    
-  <!--Featured category 
-
-  <div class="categories">
-      <div class="small-container">
-      <div class="row">
-        <div class="col-3">
-            <img src="images/headwear.jfif">
-        </div>
-        <div class="col-3">
-          <img src="images/shrinkray.jpg">
-        </div>
-        <div class="col-3">
-          <img src="images/spybelt.jpg">
-        </div>
-        </div>
-      </div>
-    </div>
-  -->
-
-    <!-- css for featured cateagory
-      .categories{
-    margin: 70px 0;
-}
-.col-3{
-    flex-basis: 30%;
-    min-width: 250px;
-    margin-bottom: 30px;
-}
-.col-3 img{
-    width: 100%;
-}
-    -->
-
-
-<!-- signup-->
+<!-- Therapy section -->
 
 <div class="offer">
     <div class="small-container">
       <div class="row">
-          <div class="col-12">
-              <h1><i>Sign Up </i>  or <i> Log In</i>  to Get Unlimited Offers on <br>all Our Products and Services!</h1>
-                  <a href="signup.html" class="hero-btn">Sign Up or Log In</a>
+          <div class="col-6">
+              <h1>Therapy</h1>
+              <p>Have you considered Therapy? Therapy is a new and improved
+                 way to  find out what is wrong with an indiviual’s mentality.</p>
+          </div>
+          <div class="col-6">
+            <h1>If you are experiencing any of the following:
+            </h1>
+              <br>
+              <p>
+                *Guilt
+                <br>
+                *Agony
+                <br>
+                *Crippling Depression
+                <br>
+                *impulsive behavior
+              </p>
+              <h2>
+              Then You Need to See a Therapist
+             </h2>
           </div>
       </div>
     </div>
 </div>
 
+<!-- end of Therapy section -->
 
 
 
-
-
-
-
-<!--Featured Products-->
-    <div class="small-container">
-      <h2 class="title">Featured Products</h2>
-      <div class="row">
-        <div class="col-3">
-          <img src="images/headwear.jfif">
-          <h4>Headwear</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
-          <p>$150.00</p>
-        </div>
-          <div class="col-3">
-            <img src="images/headwear.jfif">
-            <h4>Headwear</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$150.00</p>
-          </div>
-            <div class="col-3">
-              <img src="images/headwear.jfif">
-              <h4>Headwear</h4>
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-              </div>
-              <p>$150.00</p>
-            </div>
-            <div class="col-3">
-              <img src="images/headwear.jfif">
-              <h4>Headwear</h4>
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-              </div>
-              <p>$150.00</p>
-            </div>
-    </div>
-    </div>
-    
-
-
-
-
-
-
-
-
-
-<!--smAbout TEST-->
+<!-- Dr. Nefario-->
 <div class="offer">
+<h2 class="title">Meet Dr. Nefario</h2>
   <div class="small-container">
     <div class="row">
         <div class="col-6">
+          <!-- needs to be Dr. Nefario pic here-->
           <img src ="images/minions.jfif" class="offer-img">
         </div>
         <div class="col-6">
-            <p>a little about us... </p>
-            <h1>We're the Minions!</h1>
-            <small>We started off as a small company
-               with only one customer. Only getting
-                paid 1 dollar per hour, wasn’t enough 
-                for us. Now, we sell and provide more 
-                products and services nationwide.</small>
-                <br>
-                <a href="about.html" class="hero-btn">Read More</a>
+            <h3>Dr. Neferio is a certified freak, 7 days a week. 
+               He operates the biggest therapy clinic in the nation.
+                Neferio has a degree in psychology and criminal
+                 injustice. </h3>
         </div>
     </div>
   </div>
 </div>
+<!-- end of Dr. Nefario-->
 
 
-
-
-
-
-       
-<!--https://www.youtube.com/watch?v=lBfshkPlMW8  11:52
-  https://www.youtube.com/watch?v=yQimoqo0-7g -->
-    <!--Sign up-->
-
-    
-
-
-
-
-
-      <!--https://www.youtube.com/watch?v=oYRda7UtuhA  20:00 --> 
-
-
-
-
-
+<!--sm appointment-->
+<div class="offer">
+    <div class="small-container">
+      <div class="row">
+          <div class="col-6">
+              <h1>Are You Ready to Talk to a Professional?</h1>
+              <p>It’s simple and easy.
+                <br>
+                 Just pick a date and
+                 time and 
+                 <br>
+                 you’re done!</p>
+          </div>
+          <div class="col-6">
+            <!--change link of the button to appointment link-->
+          <a href="about.php" class="hero-btn">Schedule Appointment</a>
+          </div>
+      </div>
+    </div>
+</div>
+    <!--end of sm appointment-->
 
 
 
