@@ -61,7 +61,24 @@
 
 
 
-
+<!--Featured Products-->
+<div class="small-container">
+      <h2 class="title">About Us</h2>
+      <div class="row">
+        <div class="col-6">
+          <img src="images/headwear.jfif">
+          <p>Hi! I’m Mia.  I’ve been in the Anti-Villain
+             League for 30 years. I like fishing and
+              playing cards. </p>
+        </div>
+          <div class="col-6">
+            <img src="images/headwear.jfif">
+            <p>Hey! I’m Laila.  I’ve been in the
+               Anti-Villain League for 15 years.
+                I like trampolines and socks</p>
+          </div>
+    </div>
+    </div>
 
 
 
@@ -101,7 +118,7 @@
     -->
 
 
-<!-- signup-->
+<!-- We are the Minions section-->
 
 <div class="offer">
     <div class="small-container">
@@ -126,96 +143,43 @@
 
 -->
 
-
-
-<!--Featured Products-->
-    <div class="small-container">
-      <h2 class="title">Featured Products</h2>
-      <div class="row">
-        <div class="col-3">
-          <img src="images/headwear.jfif">
-          <h4>Headwear</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
-          <p>$150.00</p>
-        </div>
-          <div class="col-3">
-            <img src="images/headwear.jfif">
-            <h4>Headwear</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$150.00</p>
-          </div>
-            <div class="col-3">
-              <img src="images/headwear.jfif">
-              <h4>Headwear</h4>
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-              </div>
-              <p>$150.00</p>
-            </div>
-            <div class="col-3">
-              <img src="images/headwear.jfif">
-              <h4>Headwear</h4>
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-              </div>
-              <p>$150.00</p>
-            </div>
-    </div>
-    </div>
-    
-
-
-
-
-
-
-
-
-
-<!--smAbout TEST-->
+<!--Who are We segment-->
 <div class="offer">
   <div class="small-container">
     <div class="row">
         <div class="col-6">
-          <img src ="images/minions.jfif" class="offer-img">
+          <p>We were born in 1895 and were adopted by a
+             man named Gru.  He gave us our purpose
+              and we appreciate him very much. Because
+               of Gru, we can finally express our passion
+                for crime.</p>
         </div>
         <div class="col-6">
-            <p>a little about us... </p>
-            <h1>We're the Minions!</h1>
-            <small>We started off as a small company
-               with only one customer. Only getting
-                paid 1 dollar per hour, wasn’t enough 
-                for us. Now, we sell and provide more 
-                products and services nationwide.</small>
-                <br>
-                <a href="about.php" class="hero-btn">Read More</a>
+            <h1>WHO ARE WE</h1>
         </div>
     </div>
   </div>
 </div>
+<!--end of Who are We segment-->
 
-
-
+<!--Why We Do It segment-->
+<div class="offer">
+  <div class="small-container">
+    <div class="row">
+        <div class="col-6">
+          <h1>WHY WE DO IT?</h1>
+        </div>
+        <div class="col-6">
+            <p>We started Villains, Spies, and Beyond
+               because we wanted to create a place where
+                villains OR spies can come and shop for
+                 items without worrying about the
+                  government intervening.</p>
+        </div>
+    </div>
+  </div>
+</div>
+<!--end of Why We Do It segment-->
 
 
 
