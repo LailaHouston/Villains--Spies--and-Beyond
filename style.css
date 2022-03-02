@@ -351,11 +351,18 @@ h4{
     transform: translateY(-5px);
 }
 .offer{
-    background: linear-gradient(#5684fa,#f7e193);
+    background: linear-gradient(#fa56c3,#93f7bd);
     margin-top: 0px;
     padding: 60px 0;
 }
+/* ---
+.wearetheminions{
+    background: linear-gradient(#5684fa,#f7e193);;
 
+    margin-top: 10px;
+    padding: 1000px 0;
+}
+*/
 .col-12{
     text-align: center;
 }

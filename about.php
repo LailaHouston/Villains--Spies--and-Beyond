@@ -84,7 +84,7 @@
         </div>
       </div>
     </div>
-  -->
+      -->
 
     <!-- css for featured cateagory
       .categories{
@@ -107,17 +107,24 @@
     <div class="small-container">
       <div class="row">
           <div class="col-12">
-              <h1><i>Sign Up </i>  or <i> Log In</i>  to Get Unlimited Offers on <br>all Our Products and Services!</h1>
-                  <a href="signup.php" class="hero-btn">Sign Up or Log In</a>
+              <h1>We are the Minions</h1>
           </div>
       </div>
     </div>
 </div>
 
+<!---
+<div class="wearetheminions">
+    <div class="small-container">
+      <div class="row">
+          <div class="col-12">
+              <h1>We are the Minions</h1>
+          </div>
+      </div>
+    </div>
+</div>
 
-
-
-
+-->
 
 
 
