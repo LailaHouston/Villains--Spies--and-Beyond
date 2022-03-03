@@ -2,7 +2,6 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: Abril Fatface;
    
 }
 /*--- -------PopUp--------- ---*/
@@ -380,16 +379,15 @@ h4{
 .col-12 h1{
     font-size: 50px;
 }
-.col-6 .hero-btn{
+ .col-6 .hero-btn {
     color: black;
     border: 1px solid black;
     height: 60px;
     width: 300px;
     font-size: 25px;
     text-align: center;
-
 }
-.col-6 .hero-btn:hover{
+ .col-6 .hero-btn:hover{
     background: white;
 }
 i {
@@ -438,12 +436,13 @@ form fieldset .mb-3
 }
 .form-label{
   text-align: end;
-    
 }
 
 
 /*--- end of signup page----*/
 
+
+/*--- Footer ----*/
 .footer-container{
     background-color: #212329;
     padding-bottom: 4rem;
@@ -457,15 +456,32 @@ form fieldset .mb-3
     display: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .footer-heading {
     display: flex;
     flex-direction: column;
-    margin-right: 4rem;
 }
 
+.footer-heading h2{
+    margin-bottom: 2rem;  
+}
 
+.footer-heading a{
+    color: #FFF;
+    text-decoration: none;
+    margin-bottom: o.5rem;
+} 
+
+.footer-heading a:hover{
+    color: red;
+    transition: 0.3s ease-out;
+
+}
+
+/*--- end of Footer ----*/
 
 
 

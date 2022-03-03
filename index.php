@@ -213,17 +213,6 @@
 
 
        
-<!--https://www.youtube.com/watch?v=lBfshkPlMW8  11:52
-  https://www.youtube.com/watch?v=yQimoqo0-7g -->
-    <!--Sign up-->
-
-    
-
-
-
-
-
-      <!--https://www.youtube.com/watch?v=oYRda7UtuhA  20:00 --> 
 
 
 
@@ -275,7 +264,7 @@
         </div>
       </div>
       
-     <!---https://www.youtube.com/watch?v=5WoQm7tR6EA----> 
+     <!---https://www.youtube.com/watch?v=5WoQm7tR6EA-- 11:36--> 
 
 
 
