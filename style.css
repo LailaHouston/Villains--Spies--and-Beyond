@@ -354,6 +354,27 @@ h4{
     margin-top: 0px;
     padding: 60px 0;
 }
+/* ---- therapy description under services --*/
+.therapy{
+    background-color: black;
+    color: white;
+    
+}
+.nefario{
+    background-color: #C4C4C4;
+    color: rgb(49, 49, 49);
+}
+.professional{
+    background-color: white;
+    color: black;
+}
+
+
+/* ---- therapy description under services --*/
+
+
+
+
 /* ---
 .wearetheminions{
     background: linear-gradient(#5684fa,#f7e193);;

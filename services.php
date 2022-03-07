@@ -59,7 +59,7 @@
 
 <!-- Therapy section -->
 
-<div class="offer">
+<div class="therapy">
     <div class="small-container">
       <div class="row">
           <div class="col-6">
@@ -93,7 +93,7 @@
 
 
 <!-- Dr. Nefario-->
-<div class="offer">
+<div class="nefario">
 <h2 class="title">Meet Dr. Nefario</h2>
   <div class="small-container">
     <div class="row">
@@ -114,7 +114,7 @@
 
 
 <!--sm appointment-->
-<div class="offer">
+<div class="professional">
     <div class="small-container">
       <div class="row">
           <div class="col-6">
