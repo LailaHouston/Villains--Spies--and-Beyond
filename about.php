@@ -33,11 +33,13 @@
           </div>
           <i class="fa fa-bars"  onclick="showMenu()"></i>
         </nav>
-        <div class="text-box">
-          <h1>Villains, Spies, and Beyond</h1>
-          <p>A Safe Place for You and Your Mischievousness</p>
-          <a href="products.php" class="hero-btn">View Products</a>
-        </div>
+    
+          <div class="aboutusheader">
+            <div class="box">
+          <h1>ABOUT US</h1>
+          </div>
+          </div>
+        
 
     </section>
     <!--End of Test Nav-->
