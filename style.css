@@ -386,6 +386,19 @@ h4{
     margin-top: 0px;
     padding: 60px 0;
 }
+
+/* --- about us section --- */ 
+.minionssec{
+    background-color: #d3d8a2;
+    margin-top: 0px;
+    padding: 100px 0;
+}
+.minionssec .small-container .row .col-12 h1{
+    font-size: 90px;
+    color: rgb(97, 99, 87);
+}
+/* --- end of about us section --- */ 
+
 /* ---- therapy description under services --*/
 .therapy{
     background-color: black;

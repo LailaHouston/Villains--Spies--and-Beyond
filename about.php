@@ -38,8 +38,24 @@
             <div class="box">
           <h1>ABOUT US</h1>
           </div>
+          <div class="small-container">
+      <div class="row">
+        <div class="col-6">
+          <img src="images/headwear.jfif">
+          <p>Hi! I’m Mia.  I’ve been in the Anti-Villain
+             League for 30 years. I like fishing and
+              playing cards.</p>
+        </div>
+          <div class="col-6">
+            <img src="images/headwear.jfif">
+            <p>Hey! I’m Laila.  I’ve been in the
+               Anti-Villain League for 15 years.
+                I like trampolines and socks</p>
           </div>
-        
+    </div>
+    </div>
+          </div>
+          
 
     </section>
     <!--End of Test Nav-->
@@ -58,29 +74,6 @@
   
       </script>
     <!-- End of Javascript for toggle menu-->
-
-
-
-
-
-<!--Featured Products-->
-<div class="small-container">
-      <h2 class="title">About Us</h2>
-      <div class="row">
-        <div class="col-6">
-          <img src="images/headwear.jfif">
-          <p>Hi! I’m Mia.  I’ve been in the Anti-Villain
-             League for 30 years. I like fishing and
-              playing cards. </p>
-        </div>
-          <div class="col-6">
-            <img src="images/headwear.jfif">
-            <p>Hey! I’m Laila.  I’ve been in the
-               Anti-Villain League for 15 years.
-                I like trampolines and socks</p>
-          </div>
-    </div>
-    </div>
 
 
 
@@ -122,7 +115,7 @@
 
 <!-- We are the Minions section-->
 
-<div class="offer">
+<div class="minionssec">
     <div class="small-container">
       <div class="row">
           <div class="col-12">
