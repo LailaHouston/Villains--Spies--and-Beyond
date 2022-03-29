@@ -389,13 +389,23 @@ h4{
 
 /* --- about us section --- */ 
 .minionssec{
-    background-color: #d3d8a2;
+    background-color: #f1eecf;
     margin-top: 0px;
     padding: 100px 0;
 }
 .minionssec .small-container .row .col-12 h1{
     font-size: 90px;
-    color: rgb(97, 99, 87);
+    color: rgb(97, 99, 87); 
+}
+.whoarewe{
+    background-color: #DFC772;
+    margin-top: 0px;
+    padding: 60px 0;
+}
+.whywedoit {
+    background-color: #ffffff;
+    margin-top: 0px;
+    padding: 60px 0;
 }
 /* --- end of about us section --- */ 
 

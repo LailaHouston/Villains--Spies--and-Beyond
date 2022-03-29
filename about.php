@@ -20,12 +20,12 @@
 <!---Test-->
     <section class="header">
         <nav>
-          <a href="index.html"><img src="images/logo2.png" ></a>
+          <a href="index.php"><img src="images/logo2.png" ></a>
           <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
               <li><a href="index.php">Home</a></li>
-              <li><a href="products.php">Products</a></li>
+              <li><a href="products.php">Products</a></li> 
               <li><a href="services.php">Services</a></li>
               <li><a href="about.php">About</a></li>
               <li><a href="cart.php">Cart</a></li>
@@ -139,7 +139,7 @@
 -->
 
 <!--Who are We segment-->
-<div class="offer">
+<div class="whoarewe">
   <div class="small-container">
     <div class="row">
         <div class="col-6">
@@ -158,7 +158,7 @@
 <!--end of Who are We segment-->
 
 <!--Why We Do It segment-->
-<div class="offer">
+<div class="whywedoit">
   <div class="small-container">
     <div class="row">
         <div class="col-6">

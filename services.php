@@ -23,11 +23,11 @@
           <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="products.html">Products</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="cart.html">Cart</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="products.php">Products</a></li>
+              <li><a href="services.php">Services</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="cart.php">Cart</a></li>
             </ul>
           </div>
           <i class="fa fa-bars"  onclick="showMenu()"></i>
