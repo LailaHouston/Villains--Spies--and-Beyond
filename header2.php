@@ -31,20 +31,24 @@
   <body>
 
 <!---Test-->
-    <section class="header">
+<section class="otherpagesnav">
         <nav>
-          <a href="index.php"><img src="images/logo2.png" ></a>
+          <a href="index.html"><img src="images/logo2.png" ></a>
           <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
+              <div class="navtextpages">
               <li><a href="index.php">Home</a></li>
-              <li><a href="products.php">Products</a></li> 
+              <li><a href="products.php">Products</a></li>
               <li><a href="services.php">Services</a></li>
               <li><a href="about.php">About</a></li>
               <li><a href="cart.php">Cart</a></li>
+              </div>
             </ul>
           </div>
+          <div class="navbarspages">
           <i class="fa fa-bars"  onclick="showMenu()"></i>
+          </div>
           <div class="header-login">
           <?php 
             if (isset($_SESSION['userId'])) {
@@ -64,6 +68,7 @@
           
         </div>
         </nav>
+    </section>
 
      <!--Javascript for toggle menu-->
      <script>
@@ -91,6 +96,3 @@ if (!isset($_SESSION['username'])) {
       echo "\nYou are logged in!";
 }
   ?>
-
-
-        

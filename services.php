@@ -1,3 +1,6 @@
+<?php
+      include 'header2.php';
+  ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,45 +19,6 @@
   </head>
   <body>
 
-<!---Test-->
-    <section class="header">
-        <nav>
-          <a href="index.html"><img src="images/logo2.png" ></a>
-          <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-              <li><a href="index.php">Home</a></li>
-              <li><a href="products.php">Products</a></li>
-              <li><a href="services.php">Services</a></li>
-              <li><a href="about.php">About</a></li>
-              <li><a href="cart.php">Cart</a></li>
-            </ul>
-          </div>
-          <i class="fa fa-bars"  onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box">
-          <h1>Villains, Spies, and Beyond</h1>
-          <p>A Safe Place for You and Your Mischievousness</p>
-          <a href="products.html" class="hero-btn">View Products</a>
-        </div>
-
-    </section>
-    <!--End of Test Nav-->
-    
-       <!--Javascript for toggle menu-->
-       <script>
-
-        var navLinks = document.getElementById("navLinks");
-  
-        function showMenu(){
-          navLinks.style.right = "0";
-        }
-        function hideMenu(){
-          navLinks.style.right = "-200px";
-        }
-  
-      </script>
-    <!-- End of Javascript for toggle menu-->
 
 
 <!-- Therapy section -->
@@ -71,6 +35,7 @@
             <h1>If you are experiencing any of the following:
             </h1>
               <br>
+              <div class="desclist">
               <p>
                 *Guilt
                 <br>
@@ -80,6 +45,7 @@
                 <br>
                 *impulsive behavior
               </p>
+              </div>
               <h2>
               Then You Need to See a Therapist
              </h2>
@@ -128,7 +94,7 @@
           </div>
           <div class="col-6">
             <!--change link of the button to appointment link-->
-          <a href="about.php" class="hero-btn">Schedule Appointment</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSccTPnspixwEf8PuVjAUfuOLIFlkbM3WzkoriyugkRKTSDwYA/viewform?usp=sf_link" class="hero-btn">Schedule Appointment</a>
           </div>
       </div>
     </div>
@@ -136,7 +102,9 @@
     <!--end of sm appointment-->
 
 
-
+    <?php
+      include 'footer.php';
+  ?>
 
     
 

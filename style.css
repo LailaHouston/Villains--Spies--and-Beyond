@@ -2,9 +2,12 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    
+    /* font-family: 'Alfa Slab One', cursive; 
+ */
    
 }
-/*--- -------PopUp--------- ---*/
+/*--- -------PopUp
 .popup{
     position: fixed;
     top: 50%;
@@ -58,7 +61,7 @@
 }
 .contentBox .content h2{
     font-size: 4em;
-    color: #ff4d54;
+    color: #5684fa;
     line-height: 1em;
 }
 .contentBox .content h2 span{
@@ -72,7 +75,7 @@
 .contentBox .content a{
     display: inline-block;
     padding: 10px 20px;
-    background: #ff4d54;
+    background: #5684fa;
     color: #fff;
     margin-top: 15px;
     text-decoration: none;
@@ -92,8 +95,8 @@
     border-radius: 50%;
     z-index: 10;
 }
-
-/*--- ------End of PopUp------- ---*/
+---*/
+/*--- End of PopUp------- ---*/
 /*--- PAGINATION CSS ---
 .pagination ul{
     display: flex;
@@ -423,10 +426,11 @@ h4{
     background-color: white;
     color: black;
 }
-
+.desclist {
+    text-align: center;
+}
 
 /* ---- therapy description under services --*/
-
 
 
 

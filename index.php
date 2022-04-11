@@ -16,6 +16,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/4c8f9500cf.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
     <title>VSAB</title>
   </head>
   <body>
@@ -235,39 +239,9 @@
 <script src="main.js"></script>
 <!----https://www.youtube.com/watch?v=SJVCvnKM_lI-->
 
-            <!--footer-->
-      <div class="footer-container">
-        <div class="footer">
-          <div class="footer-heading footer-1">
-            <h2> About us </h2>
-            <a href="#">Blog</a>
-            <a href="#">Demo</a>
-            <a href="#">customers</a>
-            <a href="#">investors</a>
-            <a href="#">Terms of services</a>
-          </div>
-          <div class="footer-heading footer-2">
-            <h2> Contact us</h2>
-            <a href="#">Jobs</a>
-            <a href="#">support</a>
-            <a href="#">contact </a>
-            <a href="#">sponsorship</a>
-          </div>
-          <div class="footer-heading footer-3">
-            <h2> Social Media</h2>
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">twitter</a>
-            <a href="#">Youtube</a>
-          </div>
-          <div class="footer-email-form">
-            <h2>Join our Newsletter</h2>
-            <input type="email" placeholder="Enter your email address" id="footer-email">
-            <input type="submit" value="Sign Up" id="footer-email-btn">
-        </div>
-      </div>
-      
-     <!---https://www.youtube.com/watch?v=5WoQm7tR6EA-- 11:36--> 
+<?php
+      include 'footer.php';
+  ?>
 
 
 

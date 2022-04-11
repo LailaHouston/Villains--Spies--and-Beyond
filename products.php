@@ -1,3 +1,6 @@
+<?php
+      include 'header2.php';
+  ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -15,7 +18,7 @@
     <title>VSAB|Products</title>
   </head>
   <body>
-<!-- POP UP for Coupon-->
+<!-- POP UP for Coupon
 <div class="popup">
     <div class="contentBox">
       <div class="close"></div>
@@ -33,7 +36,9 @@
         </div>
     </div>
 </div>
+-->
 <!-- Automatic show popup after 2seconds of page load-->
+<!--
 <script>
   const popup = document.querySelector('.popup');
   const close = document.querySelector('.close');
@@ -49,32 +54,7 @@
     popup.style.display = "none";
   })
 </script>
-
-
-<!---Test-->
-    <section class="otherpagesnav">
-        <nav>
-          <a href="index.html"><img src="images/logo2.png" ></a>
-          <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-              <div class="navtextpages">
-              <li><a href="index.php">Home</a></li>
-              <li><a href="products.php">Products</a></li>
-              <li><a href="services.php">Services</a></li>
-              <li><a href="about.php">About</a></li>
-              <li><a href="cart.php">Cart</a></li>
-              </div>
-            </ul>
-          </div>
-          <div class="navbarspages">
-          <i class="fa fa-bars"  onclick="showMenu()"></i>
-          </div>
-        </nav>
-
-    </section>
-    <!--End of Test Nav-->
-    
+-->
        <!--Javascript for toggle menu-->
        <script>
 
@@ -329,54 +309,9 @@ JS for pagination-->
 
       <!--https://www.youtube.com/watch?v=oYRda7UtuhA  20:00 --> 
 
-
-
-
-
-
-
-
-
-    
-
-     
-
-        
-
-
-
-            <!--footer-->
-       <div class="footer-container">
-         <div class="footer">
-           <div class="footer-heading footer-1">
-             <h2> Products</h2>
-             <a href="#">Gadgets</a>
-             <a href="#">Disguises</a>
-             <a href="#">Handwear</a>
-             <a href="#">Headwear</a>
-             <a href="#">Minions</a>
-       </div>
-          <div class="footer-heading footer-2">
-            <h2> Services</h2>
-            <a href="#">Therapy</a>
-      </div>
-          <div class="footer-heading footer-3">
-            <h2> Social Media </h2>
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">Snap Chat</a>
-            <a href="#">TicTok</a>
-            <a href="#">YouTube</a>
-          </div>
-          <div class="footer-email-form">
-            <h2>Stay Connected With Us</h2>
-              <input type="email" Placerholder="Enter your email address" id="Footer-email">
-              <input type="text" id="Footer-email-btn">
-              <input type="submit" value="Sign Up" id="footer-email-btn">
-          </div>
-        </div>
-      </div>
-     <!---https://www.youtube.com/watch?v=5WoQm7tR6EA----> 
+      <?php
+      include 'footer.php';
+  ?>
 
 
 
