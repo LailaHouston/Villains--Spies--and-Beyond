@@ -1,3 +1,12 @@
+<?php 
+
+  $con = mysqli_connect('localhost:3306', 'mahs_minions', 'mustangs');
+  mysqli_select_db($con, 'mahs_minions');
+  $sql = "SELECT * FROM products WHERE productId=1";
+  $productId = $con->query($sql);
+
+?>
+
 <?php
       include 'header.php';
   ?>
@@ -68,7 +77,9 @@
 <!-- https://www.youtube.com/watch?v=eQNFff64Hy4 
 
   https://www.youtube.com/watch?v=xE-CZ379_eg
-  -->
+
+        ^ 30:56
+-->
 
 
 
@@ -186,7 +197,27 @@
     </div>
     </div>
     
+<div class="col-md-2"></div>
 
+  <div class="col-md-8">
+    <div class="row">
+      <h2 class="text-center">Top Products</h2> <br> <br>
+      <?php 
+          while($products = mysqli_fetch_assoc($productId));
+
+
+      ?>
+      <div class="col-md-5">
+        <h4> <?= $products['productName'];?></h4>
+        <img src="<?= $products['productImage'];?>" alt="<?= $products['productName']; ?>"/>
+        <p class="1price">Rs <?= $products['productPrice'];?></p>
+        <a href="details.php">
+          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-1">More</button>
+        </a>
+      </div>
+      
+    </div>
+  </div>
 
 
 
