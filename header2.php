@@ -53,23 +53,23 @@
           <?php 
             if (isset($_SESSION['userId'])) {
               echo ' <form action="includes/logout.inc.php" method="post">
-              <button type="submit" name="logout-submit">Logout</button>
+              <button type="submit" name="logout-submit" class="btn btn-primary">Logout</button>
             </form>';
             }
             else {
               echo '<form action="includes/login.inc.php" method="post">
               <input type="text" name="mailuid" placeholder="Username/E-mail..">
               <input type="text" name="pwd" placeholder="password">
-              <button type="submit" name="login-submit">Login</button>
-            </form>
-            <a href="signup.php">Signup</a>';
+              <button type="submit" name="login-submit" class="btn btn-primary">Login</button>
+              <a href="signup.php" class="btn btn-primary">Signup</a>
+            </form>';
             }
           ?>
-          
+         
         </div>
         </nav>
     </section>
-
+    
      <!--Javascript for toggle menu-->
      <script>
 
@@ -85,8 +85,8 @@ function hideMenu(){
 </script>
 <!-- End of Javascript for toggle menu-->
 
-
-        <?php
+<!--
+        < ?php
   $_SESSION['username'] = "LailaHouston";
 echo $_SESSION['username'];
 
@@ -96,3 +96,5 @@ if (!isset($_SESSION['username'])) {
       echo "\nYou are logged in!";
 }
   ?>
+
+-->

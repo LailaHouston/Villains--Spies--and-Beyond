@@ -432,7 +432,17 @@ h4{
 
 /* ---- therapy description under services --*/
 
+/* ---- header 3 ---*/
+.header3 {
+    background-color: #000;
+}
 
+
+
+
+
+
+/* ---- end of header 3 ---*/
 
 /* ---
 .wearetheminions{
@@ -523,6 +533,11 @@ form fieldset .mb-3
 
 
 /*--- Footer ----*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .footer-container{
     background-color: #212329;
     padding-bottom: 4rem;
@@ -533,7 +548,8 @@ form fieldset .mb-3
     height: 40vh;
     background-color: #212329;
     color: #fff;
-    display: center;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -543,6 +559,7 @@ form fieldset .mb-3
 .footer-heading {
     display: flex;
     flex-direction: column;
+    margin-right: 4rem;
 }
 
 .footer-heading h2{
@@ -552,7 +569,7 @@ form fieldset .mb-3
 .footer-heading a{
     color: #FFF;
     text-decoration: none;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 } 
 
 .footer-heading a:hover{
@@ -561,7 +578,34 @@ form fieldset .mb-3
 
 }
 
-/*--- end of Footer ----*/
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+}
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder{
+    color: #b1b1b1;
+}
+
+#footer-email.btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f9423d;
+}
+
+
+/*--- end of Footer 14:33----*/
 
 
 

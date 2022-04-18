@@ -2,45 +2,7 @@
       include 'header.php';
   ?>
 
-        <main>
-        <div class="wrapper-main">
-          <section class="section-default">
-        <h1>Signup</h1>
-        <?php
-          if (isset($_GET['error'])) {
-            if ($_GET['error'] == "emptyfields") {
-            echo '<p class="signuperror">Fill in all fields!</p>';
-            }
-            else if ($_GET['error'] == "invaliduidmail") {
-              echo '<p class="signuperror">Invalid username and e-mail!</p>';
-            }
-            else if ($_GET['error'] == "invaliduid") {
-              echo '<p class="signuperror">Invalid username!</p>';
-            }
-            else if ($_GET['error'] == "invalidmail") {
-              echo '<p class="signuperror">Invalid e-mail!</p>';
-            }
-            else if ($_GET['error'] == "passwordcheck") {
-              echo '<p class="signuperror">Your passwords do not match!</p>';
-            }
-            else if ($_GET['error'] == "usertaken") {
-              echo '<p class="signuperror">Username is already taken!</p>';
-            }
-          }
-          else if ($_GET['signup'] == "success") {
-              echo '<p class="signupsuccess">Signup successful!</p>';
-          }
-        ?>
-        <form class="form-signup" action="includes/signup.inc.php" method="post">
-            <input type="text" name="uid" placeholder="Username">
-            <input type="text" name="mail" placeholder="E-mail">
-            <input type="password" name="pwd" placeholder="Password">
-            <input type="password" name="pwd-repeat" placeholder="Repeat Password">
-            <button type="submit" name="signup-submit">Signup</button>
-        </form>
-          </section>
-        </div>
-      </main>
+        
       
         <!doctype html>
 <html lang="en">
@@ -68,8 +30,10 @@
     </div>
     </div>
     
-    
-    <div class="signupform">
+   
+<!---
+
+<div class="signupform">
     <form>
         <fieldset active>
           <legend><div class="legendtitle">Create New Account</div><br> 
@@ -105,14 +69,176 @@
       </form>
       </div>
       </div>
-     
+--->
 
+
+    <div class="signupform">
+    <form class="form-signup" action="includes/signup.inc.php" method="post">
+        <fieldset active>
+          <legend><div class="legendtitle">Create New Account</div><br> 
+            <div class="existingaccountbtn">already have an account? <a href="login.php">Log in</a></div></legend>
+            <?php
+          if (isset($_GET['error'])) {
+            if ($_GET['error'] == "emptyfields") {
+            echo '<p class="signuperror">Fill in all fields!</p>';
+            }
+            else if ($_GET['error'] == "invaliduidmail") {
+              echo '<p class="signuperror">Invalid username and e-mail!</p>';
+            }
+            else if ($_GET['error'] == "invaliduid") {
+              echo '<p class="signuperror">Invalid username!</p>';
+            }
+            else if ($_GET['error'] == "invalidmail") {
+              echo '<p class="signuperror">Invalid e-mail!</p>';
+            }
+            else if ($_GET['error'] == "passwordcheck") {
+              echo '<p class="signuperror">Your passwords do not match!</p>';
+            }
+            else if ($_GET['error'] == "usertaken") {
+              echo '<p class="signuperror">Username is already taken!</p>';
+            }
+          }
+          else if ($_GET['signup'] == "success") {
+              echo '<p class="signupsuccess">Signup successful!</p>';
+          }
+        ?>
+          <div class="mb-3">
+              <div class="inputboxforsignup">
+            <label for="activeTextInput" class="form-label">Email:</label>
+            <input type="text" name="mail" id="activeTextInput" class="form-control" placeholder="E-mail">
+            </div>
+        </div>
+          <div class="mb-3">
+            <div class="inputboxforsignup">
+            <label for="activeTextInput" class="form-label">Create Username:</label>
+            <input type="text" name="uid" id="activeTextInput" class="form-control" placeholder="Username">
+          </div>
+            </div>
+          <div class="mb-3">
+            <div class="inputboxforsignup">
+            <label for="activeTextInput" class="form-label">Create Password:</label>
+            <input type="password" name="pwd" id="activeTextInput" class="form-control" placeholder="Password">
+          </div>
+        </div>
+        <div class="mb-3">
+            <div class="inputboxforsignup">
+            <label for="activeTextInput" class="form-label">Repeat Password:</label>
+            <input type="password" name="pwd-repeat" id="activeTextInput" class="form-control" placeholder="Repeat Password">
+          </div>
+        </div>
+          <div class="mb-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="activeFieldsetCheck" active>
+              <label class="form-check-label" for="activeFieldsetCheck">
+                I agree that I am a certified freak, seven days a week.
+              </label>
+            </div>
+          </div>
+          <button type="submit" name="signup-submit" class="btn btn-primary">Signup</button>
+          <button type="submit" class="btn btn-primary">Create an Account</button>
+        </fieldset>
+      </form>
+      </div>
+      </div>
+      
+      <main>
+        <div class="wrapper-main">
+          <section class="section-default">
+        <h1>Signup</h1>
+        <?php
+          if (isset($_GET['error'])) {
+            if ($_GET['error'] == "emptyfields") {
+            echo '<p class="signuperror">Fill in all fields!</p>';
+            }
+            else if ($_GET['error'] == "invaliduidmail") {
+              echo '<p class="signuperror">Invalid username and e-mail!</p>';
+            }
+            else if ($_GET['error'] == "invaliduid") {
+              echo '<p class="signuperror">Invalid username!</p>';
+            }
+            else if ($_GET['error'] == "invalidmail") {
+              echo '<p class="signuperror">Invalid e-mail!</p>';
+            }
+            else if ($_GET['error'] == "passwordcheck") {
+              echo '<p class="signuperror">Your passwords do not match!</p>';
+            }
+            else if ($_GET['error'] == "usertaken") {
+              echo '<p class="signuperror">Username is already taken!</p>';
+            }
+          }
+          else if ($_GET['signup'] == "success") {
+              echo '<p class="signupsuccess">Signup successful!</p>';
+          }
+        ?>
+        <form class="form-signup" action="includes/signup.inc.php" method="post">
+            <input type="text" name="uid" placeholder="Username">
+            <br>
+            <input type="text" name="mail" placeholder="E-mail">
+            <br>
+            <input type="password" name="pwd" placeholder="Password">
+            <br>
+            <input type="password" name="pwd-repeat" placeholder="Repeat Password">
+            <br>
+            <button type="submit" name="signup-submit">Signup</button>
+            <br>
+        </form>
+          </section>
+        </div>
+      </main>
         
-
+      <!--
+<main>
+        <div class="wrapper-main">
+          <section class="section-default">
+        <h1>Signup</h1>
+      
+        <?php
+          if (isset($_GET['error'])) {
+            if ($_GET['error'] == "emptyfields") {
+            echo '<p class="signuperror">Fill in all fields!</p>';
+            }
+            else if ($_GET['error'] == "invaliduidmail") {
+              echo '<p class="signuperror">Invalid username and e-mail!</p>';
+            }
+            else if ($_GET['error'] == "invaliduid") {
+              echo '<p class="signuperror">Invalid username!</p>';
+            }
+            else if ($_GET['error'] == "invalidmail") {
+              echo '<p class="signuperror">Invalid e-mail!</p>';
+            }
+            else if ($_GET['error'] == "passwordcheck") {
+              echo '<p class="signuperror">Your passwords do not match!</p>';
+            }
+            else if ($_GET['error'] == "usertaken") {
+              echo '<p class="signuperror">Username is already taken!</p>';
+            }
+          }
+          else if ($_GET['signup'] == "success") {
+              echo '<p class="signupsuccess">Signup successful!</p>';
+          }
+        ?>
+        <form class="form-signup" action="includes/signup.inc.php" method="post">
+            <input type="text" name="uid" placeholder="Username">
+            <br>
+            <input type="text" name="mail" placeholder="E-mail">
+            <br>
+            <input type="password" name="pwd" placeholder="Password">
+            <br>
+            <input type="password" name="pwd-repeat" placeholder="Repeat Password">
+            <br>
+            <button type="submit" name="signup-submit">Signup</button>
+            <br>
+        </form>
+          </section>
+        </div>
+      </main>
+        -->
 
 
             <!--footer-->
-      
+  <?php
+      include 'footer.php';
+  ?>
      <!---https://www.youtube.com/watch?v=5WoQm7tR6EA----> 
 
 
