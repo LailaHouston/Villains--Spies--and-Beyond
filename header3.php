@@ -31,25 +31,21 @@
   <body>
 
 <!---Test-->
-<section class="otherpagesnav">
-    <div class="header3">
+    <section class="header">
+      <div class="header3">
         <nav>
-          <a href="index.html"><img src="images/logo2.png" ></a>
+          <a href="index.php"><img src="images/logo2.png" ></a>
           <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-              <div class="navtextpages">
               <li><a href="index.php">Home</a></li>
-              <li><a href="products.php">Products</a></li>
+              <li><a href="products.php">Products</a></li> 
               <li><a href="services.php">Services</a></li>
               <li><a href="about.php">About</a></li>
               <li><a href="cart.php">Cart</a></li>
-              </div>
             </ul>
           </div>
-          <div class="navbarspages">
           <i class="fa fa-bars"  onclick="showMenu()"></i>
-          </div>
           <div class="header-login">
           <?php 
             if (isset($_SESSION['userId'])) {
@@ -62,16 +58,15 @@
               <input type="text" name="mailuid" placeholder="Username/E-mail..">
               <input type="text" name="pwd" placeholder="password">
               <button type="submit" name="login-submit" class="btn btn-primary">Login</button>
+              
               <a href="signup.php" class="btn btn-primary">Signup</a>
             </form>';
             }
           ?>
-         
+          
         </div>
         </nav>
-        </div>
-    </section>
-    
+          </div>
      <!--Javascript for toggle menu-->
      <script>
 
@@ -88,7 +83,7 @@ function hideMenu(){
 <!-- End of Javascript for toggle menu-->
 
 <!--
-        < ?php
+       < ?php
   $_SESSION['username'] = "LailaHouston";
 echo $_SESSION['username'];
 
@@ -99,4 +94,4 @@ if (!isset($_SESSION['username'])) {
 }
   ?>
 
--->
+--->

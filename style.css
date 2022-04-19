@@ -414,12 +414,12 @@ h4{
 
 /* ---- therapy description under services --*/
 .therapy{
-    background-color: black;
-    color: white;
+    background-color: #f1eecf;
+    color: black;
     
 }
 .nefario{
-    background-color: #C4C4C4;
+    background-color: #DFC772;
     color: rgb(49, 49, 49);
 }
 .professional{
