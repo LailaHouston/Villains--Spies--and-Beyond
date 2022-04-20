@@ -1,4 +1,4 @@
-<?php 
+<!-- ?php 
 
   $con = mysqli_connect('localhost:3306', 'mahs_minions', 'mustangs');
   mysqli_select_db($con, 'mahs_minions');
@@ -6,6 +6,10 @@
   $productId = $con->query($sql);
 
 ?>
+--->
+
+
+
 
 <?php
       include 'header.php';
@@ -120,6 +124,21 @@
     width: 100%;
 }
     -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- signup-->
@@ -246,13 +265,6 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
-       
 
 
 
