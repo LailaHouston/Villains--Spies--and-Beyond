@@ -129,7 +129,7 @@
       <h2 class="title">Showing All</h2>
       <div class="row">
         <div class="col-3">
-          <img src="images/headwear.jfif">
+          <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
           <h4>Headwear</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -141,7 +141,7 @@
           <p>$150.00</p>
         </div>
           <div class="col-3">
-            <img src="images/headwear.jfif">
+            <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
             <h4>Headwear</h4>
             <div class="rating">
               <i class="fa fa-star"></i>
@@ -153,7 +153,7 @@
             <p>$150.00</p>
           </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>
@@ -165,7 +165,7 @@
               <p>$150.00</p>
             </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>
@@ -177,7 +177,7 @@
               <p>$150.00</p>
             </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>
@@ -189,7 +189,7 @@
               <p>$150.00</p>
             </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>
@@ -201,7 +201,7 @@
               <p>$150.00</p>
             </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>
@@ -213,7 +213,7 @@
               <p>$150.00</p>
             </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>
@@ -225,7 +225,7 @@
               <p>$150.00</p>
             </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>
@@ -237,7 +237,7 @@
               <p>$150.00</p>
             </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>
@@ -249,7 +249,7 @@
               <p>$150.00</p>
             </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>
@@ -261,7 +261,7 @@
               <p>$150.00</p>
             </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>

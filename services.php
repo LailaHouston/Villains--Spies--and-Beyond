@@ -1,5 +1,5 @@
 <?php
-      include 'header2.php';
+      include 'header3.php';
   ?>
 <!doctype html>
 <html lang="en">
@@ -65,7 +65,7 @@
     <div class="row">
         <div class="col-6">
           <!-- needs to be Dr. Nefario pic here-->
-          <img src ="images/minions.jfif" class="offer-img">
+          <img src ="https://drive.google.com/uc?export=view&id=" class="offer-img">
         </div>
         <div class="col-6">
             <h3>Dr. Neferio is a certified freak, 7 days a week. 

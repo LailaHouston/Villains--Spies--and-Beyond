@@ -40,7 +40,7 @@
 <!---Test-->
     <section class="header">
         <nav>
-          <a href="index.html"><img src="images/logo2.png" ></a>
+          <a href="index.html"><img src="https://drive.google.com/uc?export=view&id=1ra9zNcTm7-aGQ6liPFOj1BqcleV4ESfO" ></a>
           <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
@@ -166,7 +166,7 @@
       <h2 class="title">Featured Products</h2>
       <div class="row">
         <div class="col-3">
-          <img src="images/headwear.jfif">
+          <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
           <h4>Headwear</h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -178,7 +178,7 @@
           <p>$150.00</p>
         </div>
           <div class="col-3">
-            <img src="images/headwear.jfif">
+            <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
             <h4>Headwear</h4>
             <div class="rating">
               <i class="fa fa-star"></i>
@@ -190,7 +190,7 @@
             <p>$150.00</p>
           </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>
@@ -202,7 +202,7 @@
               <p>$150.00</p>
             </div>
             <div class="col-3">
-              <img src="images/headwear.jfif">
+              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
               <h4>Headwear</h4>
               <div class="rating">
                 <i class="fa fa-star"></i>
@@ -249,7 +249,7 @@
   <div class="small-container">
     <div class="row">
         <div class="col-6">
-          <img src ="images/minions.jfif" class="offer-img">
+          <img src ="https://drive.google.com/uc?export=view&id=13qM4mbOBcQw8hzqR_VjCTjtHVH4PKQ9F" class="offer-img">
         </div>
         <div class="col-6">
             <p>a little about us... </p>

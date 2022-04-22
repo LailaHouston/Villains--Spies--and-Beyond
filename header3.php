@@ -34,7 +34,7 @@
     <section class="header">
       <div class="header3">
         <nav>
-          <a href="index.php"><img src="images/logo2.png" ></a>
+          <a href="index.php"><img src="https://drive.google.com/uc?export=view&id=1rZT736wElNq2oJkbbNUwQYkclU7woV50" ></a>
           <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>

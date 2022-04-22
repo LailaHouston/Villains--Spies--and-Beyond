@@ -23,7 +23,7 @@
 <!---Test-->
     <section class="header">
         <nav>
-          <a href="index.php"><img src="images/logo2.png" ></a>
+          <a href="index.php"><img src="https://drive.google.com/uc?export=view&id=" ></a>
           <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
@@ -44,13 +44,13 @@
           <div class="small-container">
       <div class="row">
         <div class="col-6">
-          <img src="images/headwear.jfif">
+          <img src="https://drive.google.com/uc?export=view&id=">
           <p>Hi! I’m Mia.  I’ve been in the Anti-Villain
              League for 30 years. I like fishing and
               playing cards.</p>
         </div>
           <div class="col-6">
-            <img src="images/headwear.jfif">
+            <img src="https://drive.google.com/uc?export=view&id=">
             <p>Hey! I’m Laila.  I’ve been in the
                Anti-Villain League for 15 years.
                 I like trampolines and socks</p>
