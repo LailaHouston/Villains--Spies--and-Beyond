@@ -39,7 +39,6 @@
               <div class="navtextpages">
               <li><a href="index.php">Home</a></li>
               <li><a href="products.php">Products</a></li>
-              <li><a href="services.php">Services</a></li>
               <li><a href="about.php">About</a></li>
               </div>
             </ul>

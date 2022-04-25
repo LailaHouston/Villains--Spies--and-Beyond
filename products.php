@@ -75,9 +75,10 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
 <!-- testing something -->
 
 <div class="small-container">
+<h2 class="title">Showing All</h2>
   <div class="row">
         <?php
-          $query = "SELECT * FROM product ORDER BY id ASC ";
+          $query = "SELECT * FROM product ORDER BY pname ASC ";
           $result = mysqli_query($con,$query);
           if(mysqli_num_rows($result) > 0) {
 
@@ -101,7 +102,7 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
               -->
 <!-- test -->
 <div class="col-3"> 
-        <img src="<?php echo $row["image"]; ?>" class="img-responsive">
+        <img src="<?php echo $row["image"]; ?>" class="img-responsive" height="280px">
           <h4 class="text-muted"><?php echo $row["pname"]; ?></h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -124,7 +125,7 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
 
 
 
-<!--Featured Products-->
+<!--Featured Products
     <div class="small-container">
       <h2 class="title">Showing All</h2>
       <div class="row">
@@ -274,6 +275,7 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
             </div>
     </div>
     </div>
+    --->
     
 <!--Pagination
 <div class="pagination">

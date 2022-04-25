@@ -44,7 +44,7 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
         ?>
 
 <div class="col-3"> 
-    <img src="<?php echo $row["categoryImage"]; ?>" class="img-responsive">
+    <img src="<?php echo $row["categoryImage"]; ?>" class="img-responsive" height="280px">
        <h4 class="text-muted"><?php echo $row["categoryName"]; ?></h4>
           <div class="rating">
             <i class="fa fa-star"></i>
@@ -77,7 +77,8 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
             <h1>We're the Minions!</h1>
             <small>We started off as a small company
                with only one customer. Only getting
-                paid 1 dollar per hour, wasn’t enough 
+                paid 1 dollar per hour, wasn’
+                t enough 
                 for us. Now, we sell and provide more 
                 products and services nationwide.</small>
                 <br>
@@ -89,7 +90,37 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
 
 
 
+<!--
+https://drive.google.com/uc?export=view&id=
 
+squidlauncher 
+https://drive.google.com/file/d/1MfrJWFt3mRjdLeF_EvG-oH4ETh6tGDrY/view?usp=sharing
+
+briefcase
+https://drive.google.com/file/d/1nUOGuH-2UCruRYnPOiz0UwjlUTmHR5oW/view?usp=sharing
+
+walkie talkie
+https://drive.google.com/file/d/1rZv5o2XES4Bn29B6K1vpx9r8OJDq_bNZ/view?usp=sharing
+
+shrinkray
+https://drive.google.com/file/d/10d4utGFeWslUPlK-fxxcGV5Ul28teyJO/view?usp=sharing
+
+fartgun
+https://drive.google.com/file/d/1zLAapbc32NcjmywWbfLc1-OS4qd9nXfu/view?usp=sharing
+
+spybelt
+https://drive.google.com/file/d/1e0QXVQii7LZ0kNJS2uk2izCM4xqHxRKc/view?usp=sharing
+
+minion
+https://drive.google.com/file/d/1POSsSe7Ap_JiI0G_vJVi7ahBT09Y_nM7/view?usp=sharing
+
+bob and teddy bear
+https://drive.google.com/file/d/16u1evsWRC5XXR4zQJdvbg5YFfWQjHRSt/view?usp=sharing
+
+kevin
+https://drive.google.com/file/d/15cPo-3uiG1g5URsFgb6UTbZfKfoc5f5V/view?usp=sharing
+
+  -->
 
 <a href="#" class="to-top">
   <i class="fas fa-cheveron-up"></i>

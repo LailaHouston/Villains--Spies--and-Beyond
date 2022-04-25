@@ -166,7 +166,7 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
              man named Gru.  He gave us our purpose
               and we appreciate him very much. Because
                of Gru, we can finally express our passion
-                for crime.</p>
+                for mischief.</p>
         </div>
         <div class="col-6">
             <h1>WHO ARE WE</h1>
