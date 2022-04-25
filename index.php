@@ -45,7 +45,7 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
 
 <div class="col-3"> 
     <img src="<?php echo $row["categoryImage"]; ?>" class="img-responsive">
-       <h4 class="text-info"><?php echo $row["categoryName"]; ?></h4>
+       <h4 class="text-muted"><?php echo $row["categoryName"]; ?></h4>
           <div class="rating">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>

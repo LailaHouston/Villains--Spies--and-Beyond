@@ -102,7 +102,7 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
 <!-- test -->
 <div class="col-3"> 
         <img src="<?php echo $row["image"]; ?>" class="img-responsive">
-          <h4 class="text-info"><?php echo $row["pname"]; ?></h4>
+          <h4 class="text-muted"><?php echo $row["pname"]; ?></h4>
           <div class="rating">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -110,7 +110,7 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
             <i class="fa fa-star"></i>
             <i class="fa fa-star-o"></i>
           </div>
-          <p class="text-danger"><?php echo $row["price"]; ?></p>
+          <p class="text-muted"><?php echo $row["price"]; ?></p>
               </form>
           </div>
               

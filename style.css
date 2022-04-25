@@ -512,7 +512,9 @@ table th{
 /* --- featured categories ---*/
 .featCate{
     background-color: white;
+    color: black;
 }
+
 
 /* --- end of featured categories ---*/
 
