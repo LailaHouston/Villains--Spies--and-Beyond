@@ -21,7 +21,6 @@
     <title>VSAB | Sign Up</title>
   </head>
   <body>
-
 <!---Test
     <div class="signuppg">
     <div class="signuppage">
@@ -75,8 +74,9 @@
     <div class="signupform">
     <form class="form-signup" action="includes/signup.inc.php" method="post">
         <fieldset active>
-          <legend><div class="legendtitle">Create New Account</div><br> 
-            <div class="existingaccountbtn">already have an account? <a href="login.php">Log in</a></div></legend>
+          <legend>
+            <div class="legendtitle">Create New Account</div><br> 
+          </legend>
             <?php
           if (isset($_GET['error'])) {
             if ($_GET['error'] == "emptyfields") {
@@ -102,30 +102,35 @@
               echo '<p class="signupsuccess">Signup successful!</p>';
           }
         ?>
+        <br>
           <div class="mb-3">
               <div class="inputboxforsignup">
-            <label for="activeTextInput" class="form-label">Email:</label>
-            <input type="text" name="mail" id="activeTextInput" class="form-control" placeholder="E-mail">
+            <!-- <label for="activeTextInput" class="form-label">Email:</label> -->
+            <input type="text" name="mail" id="activeTextInput" class="form-control" placeholder="Enter e-mail">
             </div>
         </div>
+        <br>
           <div class="mb-3">
             <div class="inputboxforsignup">
-            <label for="activeTextInput" class="form-label">Create Username:</label>
-            <input type="text" name="uid" id="activeTextInput" class="form-control" placeholder="Username">
+           <!-- <label for="activeTextInput" class="form-label">Create Username:</label> -->
+            <input type="text" name="uid" id="activeTextInput" class="form-control" placeholder="Enter username">
           </div>
             </div>
+            <br>
           <div class="mb-3">
             <div class="inputboxforsignup">
-            <label for="activeTextInput" class="form-label">Create Password:</label>
-            <input type="password" name="pwd" id="activeTextInput" class="form-control" placeholder="Password">
+           <!-- <label for="activeTextInput" class="form-label">Create Password:</label> -->
+            <input type="password" name="pwd" id="activeTextInput" class="form-control" placeholder="Enter password">
           </div>
         </div>
+        <br>
         <div class="mb-3">
             <div class="inputboxforsignup">
-            <label for="activeTextInput" class="form-label">Repeat Password:</label>
+         <!--   <label for="activeTextInput" class="form-label">Repeat Password:</label> -->
             <input type="password" name="pwd-repeat" id="activeTextInput" class="form-control" placeholder="Repeat Password">
           </div>
         </div>
+        <br>
           <div class="mb-3">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="activeFieldsetCheck" active>
@@ -134,18 +139,18 @@
               </label>
             </div>
           </div>
-          <button type="submit" name="signup-submit" class="btn btn-primary">Signup</button>
-          <button type="submit" class="btn btn-primary">Create an Account</button>
+          <button type="submit" name="signup-submit" class="btn btn-primary" text-align="center">Create Account</button>
         </fieldset>
       </form>
       </div>
       </div>
       
+      <!--
       <main>
         <div class="wrapper-main">
           <section class="section-default">
         <h1>Signup</h1>
-        <?php
+        < ?php
           if (isset($_GET['error'])) {
             if ($_GET['error'] == "emptyfields") {
             echo '<p class="signuperror">Fill in all fields!</p>';
@@ -185,14 +190,14 @@
           </section>
         </div>
       </main>
-        
+        --->
       <!--
 <main>
         <div class="wrapper-main">
           <section class="section-default">
         <h1>Signup</h1>
       
-        <?php
+        < ?php
           if (isset($_GET['error'])) {
             if ($_GET['error'] == "emptyfields") {
             echo '<p class="signuperror">Fill in all fields!</p>';

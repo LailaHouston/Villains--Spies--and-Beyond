@@ -7,143 +7,6 @@
  */
    
 }
-/*--- -------PopUp
-.popup{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-}
-.contentBox{
-    position: relative;
-    width: 600px;
-    height: 400px;
-    background: rgb(248, 239, 104);
-    border-radius: 20px;
-    display: flex;
-    box-shadow: 0 5p 15px rgba(0,0,0,0.1);
-}
-.contentBox .imgBx{
-    position: relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contentBox .imgBx::before{
-    content:'';
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    background: #000;
-    border-radius: 50%;
-}
-.contentBox .imgBx img{
-    position: relative;
-    max-width: 250px;
-    z-index: 1;
-}
-.contentBox .content{
-    position: relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contentBox .content h3{
-    color: #333;
-    line-height: 1em;
-    font-weight: 300;
-    font-size: 2em;
-}
-.contentBox .content h2{
-    font-size: 4em;
-    color: #5684fa;
-    line-height: 1em;
-}
-.contentBox .content h2 span{
-    color: #333;
-    font-size: 0.75em;
-    text-transform: uppercase;
-}
-.contentBox .content p{
-    font-weight: 300;
-}
-.contentBox .content a{
-    display: inline-block;
-    padding: 10px 20px;
-    background: #5684fa;
-    color: #fff;
-    margin-top: 15px;
-    text-decoration: none;
-    border-radius: 10px;
-}
-.close{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    background: #f3f3f3 url(close.png);
-    background-repeat: no-repeat;
-    background-size: 10px;
-    background-position: center;
-    cursor: pointer;
-    border-radius: 50%;
-    z-index: 10;
-}
----*/
-/*--- End of PopUp------- ---*/
-/*--- PAGINATION CSS ---
-.pagination ul{
-    display: flex;
-    background: #fff;
-    padding: 8px;
-    border-radius: 50px;
-}
-.pagination ul li{
-    color: #20b2aa;
-    list-style: none;
-    line-height: 45px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.pagination ul li.numb{
-    border-radius: 50%;
-    height: 45px;
-    width: 45px;
-    margin: 0 3px;
-}
-.pagination ul li.dots{
-    font-size: 22px;
-    cursor: default;
-}
-.pagination ul li.btn{
-    background: #20b2aa;
-    padding: 0 20px;
-}
-.pagination ul li.prev{
-    border-radius: 25px 5px 5px 25px;
-}
-.pagination ul li.next{
-    border-radius: 5px 25px 25px 5px;
-}
-.pagination ul li.active,
-.pagination ul li.numb:hover,
-.pagination ul li.btn:hover{
-    background: #20b2aa;
-}
-
-
-
-
-end of PAGINATION CSS ---*/
 
 .signinup {
     background-image: url(images/blueyellowpic1.jpg);
@@ -350,6 +213,7 @@ background-image: url(images/blueyellowpic1.jpg);
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
+
 .col-3 img{
     width: 100%;
 }
@@ -375,6 +239,7 @@ h4{
     color: #555;
     font-weight: normal;
 }
+
 .col-3 p{
     font-size: 14px;
 }
@@ -436,12 +301,6 @@ h4{
 .header3 {
     background-color: #000;
 }
-
-
-
-
-
-
 /* ---- end of header 3 ---*/
 
 /* ---
@@ -507,15 +366,14 @@ legend {
 legend br {
     height: .02px;
 }
-legend .existingaccountbtn{
-    font-size: 15px;
-}
+/*
 form fieldset .mb-3 
 .inputboxforsignup input{
     width: 550px;
     margin-left: auto;
     margin-right: auto;
 }
+*/
 .signupform {
     padding-top: 5%;
     padding-bottom: 14%;
@@ -524,10 +382,11 @@ form fieldset .mb-3
     background-size: cover;
     position: relative;
 }
+/* --
 .form-label{
   text-align: end;
 }
-
+*/
 
 /*--- end of signup page----*/
 

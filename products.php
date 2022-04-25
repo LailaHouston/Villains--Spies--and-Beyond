@@ -1,4 +1,9 @@
 <?php
+$database_name = "mahs_minions";
+$con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name);
+
+?>
+<?php
       include 'header3.php';
   ?>
 <!doctype html>
@@ -18,58 +23,6 @@
     <title>VSAB|Products</title>
   </head>
   <body>
-<!-- POP UP for Coupon
-<div class="popup">
-    <div class="contentBox">
-      <div class="close"></div>
-        <div class="imgBx">
-          <img src="images/minions.jfif">
-        </div>
-        <div class="content">
-          <div>
-          <h3>Special Offer</h3>
-          <h2>80<sup>%</sup><span> OFF</span></h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing
-             elit.</p>
-             <a href="#">Get The Deal</a>
-             </div>
-        </div>
-    </div>
-</div>
--->
-<!-- Automatic show popup after 2seconds of page load-->
-<!--
-<script>
-  const popup = document.querySelector('.popup');
-  const close = document.querySelector('.close');
-  window.onload = function(){
-    setTimeout(function(){
-      popup.style.display = "block"
-
-      // Add some time delay to show popup
-    }, 2000)
-  }
-
-  close.addEventListener('click', () => {
-    popup.style.display = "none";
-  })
-</script>
--->
-       <!--Javascript for toggle menu-->
-       <script>
-
-        var navLinks = document.getElementById("navLinks");
-  
-        function showMenu(){
-          navLinks.style.right = "0";
-        }
-        function hideMenu(){
-          navLinks.style.right = "-200px";
-        }
-  
-      </script>
-    <!-- End of Javascript for toggle menu-->
-
 
   <!--Featured category 
 
@@ -105,7 +58,6 @@
     -->
 
 
-<!-- signup-->
 
 <div class="offer">
     <div class="small-container">
@@ -120,7 +72,55 @@
 
 
 
+<!-- testing something -->
 
+<div class="small-container">
+  <div class="row">
+        <?php
+          $query = "SELECT * FROM product ORDER BY id ASC ";
+          $result = mysqli_query($con,$query);
+          if(mysqli_num_rows($result) > 0) {
+
+              while ($row = mysqli_fetch_array($result)) {
+                
+        ?>
+
+       <!-- <div class="col-md-3">
+          <form method="post" action="cart.php?action=add&id=< ?php echo $row["id"]; ?>">
+            <div class="product">
+                <img src="< ?php echo $row["image"]; ?>" class="img-responsive">
+                <h5 class="text-info">< ?php echo $row["pname"]; ?></h5>
+                <h5 class="text-danger">< ?php echo $row["price"]; ?></h5>
+                <input type="text" name="quantity" class="form-control" value="1">
+                <input type="hidden" name="hidden_name" value="< ?php echo $row["pname"]; ?>">
+                <input type="hidden" name="hidden_price" value="< ?php echo $row["price"]; ?>">
+                <input type="submit" name="add" style="margin-top: 5px;" class="btn btn-success" value="Add to Cart">
+            </div>
+          </form>
+        </div>
+              -->
+<!-- test -->
+<div class="col-3"> 
+        <img src="<?php echo $row["image"]; ?>" class="img-responsive">
+          <h4 class="text-info"><?php echo $row["pname"]; ?></h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="text-danger"><?php echo $row["price"]; ?></p>
+              </form>
+          </div>
+              
+<?php
+              }
+            }
+        ?>
+</div>
+          </div>
+<!--- end of testing something -->
 
 
 

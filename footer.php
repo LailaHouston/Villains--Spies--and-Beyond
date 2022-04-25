@@ -28,9 +28,33 @@
           </div>
           <div class="footer-email-form">
             <h2>Join our Newsletter</h2>
-            <input type="email" placeholder="Enter your email address" id="footer-email">
-            <input type="submit" value="Sign Up" id="footer-email-btn">
+            <!-- "php" -->
+            <div class="emailsform">
+    <form class="form-signup" action="includes/userdetails.inc.php" method="post">
+        <fieldset active>
+            <?php
+          if (isset($_GET['error'])) {
+            if ($_GET['error'] == "emptyfields") {
+            echo '<p class="signuperror">Fill in all fields!</p>';
+            }
+            else if ($_GET['error'] == "invalidmail") {
+              echo '<p class="signuperror">Invalid e-mail!</p>';
+            }
+          }
+          else if ($_GET['signup'] == "success") {
+              echo '<p class="signupsuccess">Signup successful!</p>';
+          }
+        ?>
+            <!-- "end of php" --->
+            <input type="email" name="mail" id="footer-email" class="form-control" placeholder="Enter e-mail if you dare">
+            <button type="submit" name="emails-submit" class="btn btn-primary" value="Sign Up" id="footer-email-btn">Sign Up</button>
+            </fieldset>
+      </form>
+      </div>
+      </div>
         </div>
       </div>
+
       
+
      <!---https://www.youtube.com/watch?v=5WoQm7tR6EA-- 11:36--> 

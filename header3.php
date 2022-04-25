@@ -5,7 +5,7 @@
 <?php
     session_start();
 ?>
-<!--maybe put session_start(); twice @ 1:36:38-->
+
 
 <!doctype html>
 <html lang="en">

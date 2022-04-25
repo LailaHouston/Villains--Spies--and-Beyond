@@ -7,7 +7,11 @@
 
 ?>
 --->
+<?php
+$database_name = "mahs_minions";
+$con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name);
 
+?>
 
 
 
@@ -61,21 +65,6 @@
 
     </section>
     <!--End of Test Nav-->
-    
-       <!--Javascript for toggle menu-->
-       <script>
-
-        var navLinks = document.getElementById("navLinks");
-  
-        function showMenu(){
-          navLinks.style.right = "0";
-        }
-        function hideMenu(){
-          navLinks.style.right = "-200px";
-        }
-  
-      </script>
-    <!-- End of Javascript for toggle menu-->
 
 
 <!-- https://www.youtube.com/watch?v=eQNFff64Hy4 
@@ -157,6 +146,59 @@
 
 
 
+<!--- testing something --->
+<!-- testing something -->
+<div class="small-container">
+<h2 class="title">Featured Categories</h2>
+  <div class="row">
+        
+        <?php
+          $query = "SELECT * FROM category ORDER BY categoryId ASC ";
+          $result = mysqli_query($con,$query);
+          if(mysqli_num_rows($result) > 0) {
+
+              while ($row = mysqli_fetch_array($result)) {
+                
+        ?>
+
+       <!-- <div class="col-md-3">
+          <form method="post" action="cart.php?action=add&id=< ?php echo $row["id"]; ?>">
+            <div class="product">
+                <img src="< ?php echo $row["image"]; ?>" class="img-responsive">
+                <h5 class="text-info">< ?php echo $row["pname"]; ?></h5>
+                <h5 class="text-danger">< ?php echo $row["price"]; ?></h5>
+                <input type="text" name="quantity" class="form-control" value="1">
+                <input type="hidden" name="hidden_name" value="< ?php echo $row["pname"]; ?>">
+                <input type="hidden" name="hidden_price" value="< ?php echo $row["price"]; ?>">
+                <input type="submit" name="add" style="margin-top: 5px;" class="btn btn-success" value="Add to Cart">
+            </div>
+          </form>
+        </div>
+              -->
+<!-- test -->
+
+<div class="col-3"> 
+        <img src="<?php echo $row["categoryImage"]; ?>" class="img-responsive">
+          <h4 class="text-info"><?php echo $row["categoryName"]; ?></h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+              
+          </div>
+              
+<?php
+              }
+            }
+        ?>
+</div>
+          </div>
+<!--- end of testing something -->
+
+<!--- end of testing something-->
 
 
 
@@ -218,27 +260,6 @@
     
 <div class="col-md-2"></div>
 
-  <div class="col-md-8">
-    <div class="row">
-      <h2 class="text-center">Top Products</h2> <br> <br>
-      <?php 
-          while($products = mysqli_fetch_assoc($productId));
-
-
-      ?>
-      <div class="col-md-5">
-        <h4> <?= $products['productName'];?></h4>
-        <img src="<?= $products['productImage'];?>" alt="<?= $products['productName']; ?>"/>
-        <p class="1price">Rs <?= $products['productPrice'];?></p>
-        <a href="details.php">
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-1">More</button>
-        </a>
-      </div>
-      
-    </div>
-  </div>
-
-<!-- upload images --->
 
 
 
