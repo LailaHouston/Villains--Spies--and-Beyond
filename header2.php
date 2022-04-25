@@ -35,7 +35,6 @@
         <nav>
           <a href="index.html"><img src="https://drive.google.com/uc?export=view&id=1rZT736wElNq2oJkbbNUwQYkclU7woV50" ></a>
           <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
               <div class="navtextpages">
               <li><a href="index.php">Home</a></li>
@@ -47,7 +46,6 @@
             </ul>
           </div>
           <div class="navbarspages">
-          <i class="fa fa-bars"  onclick="showMenu()"></i>
           </div>
           <div class="header-login">
           <?php 
@@ -70,31 +68,3 @@
         </nav>
     </section>
     
-     <!--Javascript for toggle menu-->
-     <script>
-
-var navLinks = document.getElementById("navLinks");
-
-function showMenu(){
-  navLinks.style.right = "0";
-}
-function hideMenu(){
-  navLinks.style.right = "-200px";
-}
-
-</script>
-<!-- End of Javascript for toggle menu-->
-
-<!--
-        < ?php
-  $_SESSION['username'] = "LailaHouston";
-echo $_SESSION['username'];
-
-if (!isset($_SESSION['username'])) {
-  echo "\nYou are not logged in!";
-}   else{
-      echo "\nYou are logged in!";
-}
-  ?>
-
--->

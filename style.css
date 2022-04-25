@@ -24,10 +24,18 @@ footer{
     background-color: black;
     color: white;
 }
+.headernav1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://drive.google.com/uc?export=view&id=1ra9zNcTm7-aGQ6liPFOj1BqcleV4ESfO);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/spypic.jpg);
+    background-color: white;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -366,14 +374,14 @@ legend {
 legend br {
     height: .02px;
 }
-/*
+
 form fieldset .mb-3 
 .inputboxforsignup input{
     width: 550px;
     margin-left: auto;
     margin-right: auto;
 }
-*/
+
 .signupform {
     padding-top: 5%;
     padding-bottom: 14%;
@@ -500,6 +508,14 @@ table th{
     background-color: #efefef;
 }
 /*---- end of cart ----*/
+
+/* --- featured categories ---*/
+.featCate{
+    background-color: white;
+}
+
+/* --- end of featured categories ---*/
+
 
 
 /*-- Media--*/

@@ -5,7 +5,6 @@
 <?php
     session_start();
 ?>
-<!--maybe put session_start(); twice @ 1:36:38-->
 
 <!doctype html>
 <html lang="en">
@@ -31,11 +30,10 @@
   <body>
 
 <!---Test-->
-    <section class="header">
+    <section class="headernav1">
         <nav>
           <a href="index.php"><img src="https://drive.google.com/uc?export=view&id=1rZT736wElNq2oJkbbNUwQYkclU7woV50" ></a>
           <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
               <li><a href="index.php">Home</a></li>
               <li><a href="products.php">Products</a></li> 
@@ -44,7 +42,6 @@
               <li><a href="cart.php">Cart</a></li>
             </ul>
           </div>
-          <i class="fa fa-bars"  onclick="showMenu()"></i>
           <div class="header-login">
           <?php 
             if (isset($_SESSION['userId'])) {
@@ -62,36 +59,14 @@
             </form>';
             }
           ?>
-          
         </div>
         </nav>
+        <div class="text-box">
+          <h1>Villains, Spies, and Beyond</h1>
+          <p>A Safe Place for You and Your Mischievousness</p>
+          <a href="products.php" class="hero-btn">View Products</a>
+        </div>
 
-     <!--Javascript for toggle menu-->
-     <script>
-
-var navLinks = document.getElementById("navLinks");
-
-function showMenu(){
-  navLinks.style.right = "0";
-}
-function hideMenu(){
-  navLinks.style.right = "-200px";
-}
-
-</script>
-<!-- End of Javascript for toggle menu-->
-
-<!--
-       < ?php
-  $_SESSION['username'] = "LailaHouston";
-echo $_SESSION['username'];
-
-if (!isset($_SESSION['username'])) {
-  echo "\nYou are not logged in!";
-}   else{
-      echo "\nYou are logged in!";
-}
-  ?>
-
---->
+    </section>
+   
         

@@ -1,71 +1,12 @@
-<!-- ?php 
-
-  $con = mysqli_connect('localhost:3306', 'mahs_minions', 'mustangs');
-  mysqli_select_db($con, 'mahs_minions');
-  $sql = "SELECT * FROM products WHERE productId=1";
-  $productId = $con->query($sql);
-
-?>
---->
 <?php
 $database_name = "mahs_minions";
 $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name);
 
 ?>
 
-
-
 <?php
       include 'header.php';
   ?>
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/f0d7a30a28.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/4c8f9500cf.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-
-    <title>VSAB</title>
-  </head>
-  <body>
-
-<!---Test-->
-    <section class="header">
-        <nav>
-          <a href="index.html"><img src="https://drive.google.com/uc?export=view&id=1ra9zNcTm7-aGQ6liPFOj1BqcleV4ESfO" ></a>
-          <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-              <li><a href="index.php">Home</a></li>
-              <li><a href="products.php">Products</a></li>
-              <li><a href="services.php">Services</a></li>
-              <li><a href="about.php">About</a></li>
-              <li><a href="cart.php">Cart</a></li>
-            </ul>
-          </div>
-          <i class="fa fa-bars"  onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box">
-          <h1>Villains, Spies, and Beyond</h1>
-          <p>A Safe Place for You and Your Mischievousness</p>
-          <a href="products.php" class="hero-btn">View Products</a>
-        </div>
-
-    </section>
-    <!--End of Test Nav-->
-
 
 <!-- https://www.youtube.com/watch?v=eQNFff64Hy4 
 
@@ -73,62 +14,6 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
 
         ^ 30:56
 -->
-
-
-
-
-
-
-
-    
-  <!--Featured category 
-
-  <div class="categories">
-      <div class="small-container">
-      <div class="row">
-        <div class="col-3">
-            <img src="images/headwear.jfif">
-        </div>
-        <div class="col-3">
-          <img src="images/shrinkray.jpg">
-        </div>
-        <div class="col-3">
-          <img src="images/spybelt.jpg">
-        </div>
-        </div>
-      </div>
-    </div>
-  -->
-
-    <!-- css for featured cateagory
-      .categories{
-    margin: 70px 0;
-}
-.col-3{
-    flex-basis: 30%;
-    min-width: 250px;
-    margin-bottom: 30px;
-}
-.col-3 img{
-    width: 100%;
-}
-    -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- signup-->
 
@@ -143,11 +28,8 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
     </div>
 </div>
 
-
-
-
-<!--- testing something --->
-<!-- testing something -->
+<!-- Featured Categories -->
+<div class="featCate">
 <div class="small-container">
 <h2 class="title">Featured Categories</h2>
   <div class="row">
@@ -161,111 +43,29 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
                 
         ?>
 
-       <!-- <div class="col-md-3">
-          <form method="post" action="cart.php?action=add&id=< ?php echo $row["id"]; ?>">
-            <div class="product">
-                <img src="< ?php echo $row["image"]; ?>" class="img-responsive">
-                <h5 class="text-info">< ?php echo $row["pname"]; ?></h5>
-                <h5 class="text-danger">< ?php echo $row["price"]; ?></h5>
-                <input type="text" name="quantity" class="form-control" value="1">
-                <input type="hidden" name="hidden_name" value="< ?php echo $row["pname"]; ?>">
-                <input type="hidden" name="hidden_price" value="< ?php echo $row["price"]; ?>">
-                <input type="submit" name="add" style="margin-top: 5px;" class="btn btn-success" value="Add to Cart">
-            </div>
-          </form>
-        </div>
-              -->
-<!-- test -->
-
 <div class="col-3"> 
-        <img src="<?php echo $row["categoryImage"]; ?>" class="img-responsive">
-          <h4 class="text-info"><?php echo $row["categoryName"]; ?></h4>
+    <img src="<?php echo $row["categoryImage"]; ?>" class="img-responsive">
+       <h4 class="text-info"><?php echo $row["categoryName"]; ?></h4>
           <div class="rating">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star-o"></i>
-          </div>
+         </div>
               
-          </div>
+</div>
               
 <?php
-              }
-            }
-        ?>
+   }
+   }
+ ?>
 </div>
-          </div>
-<!--- end of testing something -->
+</div>
+  </div>
+<!--- end of featured Categories -->
 
-<!--- end of testing something-->
-
-
-
-
-<!--Featured Products-->
-    <div class="small-container">
-      <h2 class="title">Featured Products</h2>
-      <div class="row">
-        <div class="col-3">
-          <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
-          <h4>Headwear</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-          </div>
-          <p>$150.00</p>
-        </div>
-          <div class="col-3">
-            <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
-            <h4>Headwear</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$150.00</p>
-          </div>
-            <div class="col-3">
-              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
-              <h4>Headwear</h4>
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-              </div>
-              <p>$150.00</p>
-            </div>
-            <div class="col-3">
-              <img src="https://drive.google.com/uc?export=view&id=1AYscdbcsWuLG5Vjb6H4wD7sbpUt-4uVu">
-              <h4>Headwear</h4>
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-              </div>
-              <p>$150.00</p>
-            </div>
-    </div>
-    </div>
-    
-<div class="col-md-2"></div>
-
-
-
-
-
-
-<!--smAbout TEST-->
+<!--smAbout-->
 <div class="offer">
   <div class="small-container">
     <div class="row">
@@ -290,14 +90,6 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
 
 
 
-
-
-
-
-
-    
-
-     
 
 <a href="#" class="to-top">
   <i class="fas fa-cheveron-up"></i>

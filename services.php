@@ -94,7 +94,7 @@
           </div>
           <div class="col-6">
             <!--change link of the button to appointment link-->
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSccTPnspixwEf8PuVjAUfuOLIFlkbM3WzkoriyugkRKTSDwYA/viewform?usp=sf_link" class="hero-btn">Schedule Appointment</a>
+          <a href="https://forms.gle/Hpgt7J56gg3Z6mwy6" class="hero-btn">Schedule Appointment</a>
           </div>
       </div>
     </div>
