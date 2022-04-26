@@ -126,7 +126,9 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
     
 
 <hr>
-
+<p>For the extreme villains
+   that want to prank others
+    use this: <a href="https://datadev.devcatalyst.com/~mahs_eggplantemoji/index.php">click here</a><p>
 
        
 <!--https://www.youtube.com/watch?v=lBfshkPlMW8  11:52
