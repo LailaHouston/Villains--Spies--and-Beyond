@@ -37,9 +37,11 @@
               echo '<p class="signuperror">Invalid e-mail!</p>';
             }
           }
-          else if ($_GET['signup'] == "success") {
+          else if (isset($_GET['error'])) {
+          if ($_GET['signup'] == "success") {
               echo '<p class="signupsuccess">Signup successful!</p>';
           }
+        }
         ?>
             <!-- "end of php" --->
             <input type="email" name="mail" id="footer-email" class="form-control" placeholder="Enter e-mail if you dare">
