@@ -1,4 +1,4 @@
-<?php
+-<?php
 $database_name = "mahs_minions";
 $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name);
 
@@ -37,15 +37,17 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
 <?php
               }
             }
-        ?>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!--- end of testing something -->
+            ?>
+    </div>
+    </div>
+    </div>
+    </div>
+          </section>
+    </div>
+    <!--- end of testing something -->
+    
+    <!--- end of testing something-->
 
-<!--- end of testing something-->
 
 
 
@@ -76,23 +78,9 @@ $con = mysqli_connect("localhost:3306","mahs_minions","mustangs", $database_name
           </div>
           -->
 
-    </section>
+
     <!--End of Test Nav-->
     
-       <!--Javascript for toggle menu-->
-       <script>
-
-        var navLinks = document.getElementById("navLinks");
-  
-        function showMenu(){
-          navLinks.style.right = "0";
-        }
-        function hideMenu(){
-          navLinks.style.right = "-200px";
-        }
-  
-      </script>
-    <!-- End of Javascript for toggle menu-->
 
 
 
